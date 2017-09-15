@@ -1,4 +1,10 @@
-print "Hello World"
+##################################################
+print "SINGLE STREAM-TUBE MODEL FOR VAWT ANALYSIS"
+##################################################
+########## LEONARDO MORAIS BARRETO ###############
+########## ENGENHARIA MECANICA ###################
+########## UFRJ 2017.2 ###########################
+##################################################
 
 from math import *
 from parameters import *
