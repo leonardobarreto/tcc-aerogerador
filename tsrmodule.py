@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from parameters import *
 import functions
 from math import degrees
+import logging
 
 ######################
 #### Objeto TSR ######
@@ -25,11 +26,9 @@ class TsrObj:
         self.naca = dictNACA[num_naca]
 
     def calcular_tsr(self):
-        ############################
-        #### Inicio do Calculo #####
-        ############################
 
-        #Inicializa os arrays
+        
+        logging.info('Inicializacao das arrays do modulo tsr')
         ar_teta = self.teta
         ar_u_linha = np.zeros(ar_teta.size)
         ar_alfa = np.zeros(ar_teta.size)
@@ -42,7 +41,9 @@ class TsrObj:
         ar_f_r_mov = np.zeros(ar_teta.size)
         ar_f_r_perp = np.zeros(ar_teta.size)
 
+        logging.info('Inicializacao da iteracao para teta.')
         for i in range(ar_teta.size):
+            logging.info('Inicializacao da iteracao para teta = ' + str(i))
             resultado = self.definir_u_linha(ar_teta[i])
             u_linha = resultado[0]
             alfa = resultado[1]
@@ -62,25 +63,46 @@ class TsrObj:
             ar_f_r_mov[i] = (ar_f_teta[i]*sin(ar_teta[i])+ar_f_n[i]*cos(ar_teta[i]))/n
             ar_f_r_perp[i] = (ar_f_teta[i]*cos(ar_teta[i])+ar_f_n[i]*sin(ar_teta[i]))/n
             
-            print i, u_linha, alfa, re
+            logging.info('Resultado para teta = ' + str(i))
+            logging.info('f_l = ' + str(ar_f_l[i]))
+            logging.info('f_d = ' + str(ar_f_d[i]))
+            logging.info('f_n = ' + str(ar_f_n[i]))
+            logging.info('f_teta = ' + str(ar_f_teta[i]))
+            logging.info('f_t = ' + str(ar_t[i]))
+            logging.info('f_r_mov = ' + str(ar_f_r_mov[i]))
+            logging.info('f_r_perp = ' + str(ar_f_r_perp[i]))
 
-            if i == 89:
-                print i
-
+        logging.info('Fim da iteracao para teta.')
         t_total = np.sum(ar_t)
         p = t_total*omega
         c_p = p/p_max
         f_r_mov_total = np.sum(ar_f_r_mov)
         f_r_perp_total = np.sum(ar_f_r_perp)
 
+        logging.info('Resultados:')
+        logging.info('t_total = ' + str(t_total))
+        logging.info('p = ' + str(p))
+        logging.info('c_p = ' + str(c_p))
+        logging.info('f_r_mov_total = ' + str(f_r_mov_total))
+        logging.info('f_r_perp_total = ' + str(f_r_perp_total))
+
         f_r = sqrt(f_r_mov_total**2+f_r_perp_total**2)  
         c_d_rotor = f_r_mov_total/(ro*(u_inf**2)*a*0.5)
         re_rotor = ro*(u_inf**2)*(2*r)/mu
 
+        logging.info('f_r = ' + str(f_r))
+        logging.info('c_d_rotor = ' + str(c_d_rotor))
+        logging.info('re_rotor = ' + str(re_rotor))
+
         u_2 = 2*u_linha - u_inf
+
+        logging.info('u_2 = ' + str(u_2))
 
         p_3 = p_atm + ro*0.5*(u_inf**2-u_linha**2)
         p_4 = p_atm + ro*0.5*(u_2**2-u_linha**2)
+
+        logging.info('p_3 = ' + str(p_3))
+        logging.info('p_4 = ' + str(p_4))
 
         erro = 10
         count = 0
@@ -102,8 +124,14 @@ class TsrObj:
         #excessao para se k2 estiver fora do dominio
         gama = np.arctan(k2)
 
+        logging.info('beta = ' + str(beta))
+        logging.info('gama = ' + str(gama))
+
         f_r_x = f_r_mov_total*cos(gama+beta/2)+f_r_perp_total*sin(gama+beta/2)
         f_r_y = f_r_mov_total*sin(gama+beta/2)+f_r_perp_total*cos(gama+beta/2)
+
+        logging.info('f_r_x = ' + str(f_r_x))
+        logging.info('f_r_y = ' + str(f_r_y))
 
         ######## Fim do Calculo
 
@@ -120,8 +148,11 @@ class TsrObj:
         self.f_r_perp = ar_f_r_perp 
     
     def definir_u_linha (self,teta):
+        logging.info('Inicializacao da iteracao para u_linha para teta = ' + str(i))
+        # Estimativa inicial para u_linha = u_inf
         u_linha = u_inf
         alfa = 0
+        # Definicao de teta em radianos
         teta = pi*teta/180
         
         erro = 10
@@ -143,6 +174,8 @@ class TsrObj:
             #fx_linha = cx_linha*ro*(u_linha_2**2)*a/2
             u_linha_2 = u_inf/(1 + cx_linha/4)
             erro = abs((u_linha-u_linha_2)/u_linha_2)
+
+            logging.info('Calculo de U_LINHA: Count = ' + str(count) + ' , erro = ' + str(erro) + ' , u_linha = ' + str(u_linha_2))
             
             if erro > 0.001:
                 u_linha = u_linha_2
@@ -152,8 +185,10 @@ class TsrObj:
             count += 1
             
             if count == 99:
-                print "Calculo de u_linha nao convergiu para (alfa, re) ", alfa, re
+                logging.info('Calculo de U_LINHA nao convergiu para alfa = ' + str(alfa) + 'e re = ' + str(re))
                 return ((u_linha+u_linha_n_conv)/2, alfa, re)
+
+        logging.info('Calculo de U_LINHA: u_linha = ' + str(u_linha) + ', alfa = ' + str(alfa) + ', re = ' + str(re))
         return (u_linha, alfa, re)
 
     def interpolar_cd(self,alfa):

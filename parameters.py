@@ -1,9 +1,11 @@
 from math import *
 from openpyxl import load_workbook
+from openpyxl import Workbook
+import logging
 
-#############################
-##### Parametros Globais ####
-#############################
+logging.info('#############################')
+logging.info('##### Parametros Globais ####')
+logging.info('#############################')
 
 #Velocidade do vento [m/s]
 u_inf = 10
@@ -32,18 +34,34 @@ p_max = 0.5*ro*a*(u_inf**3)
 #Pressao Atmosferica [Pa]
 p_atm = 101325
 
-#####################
-#### Inputs     #####
-#####################
+logging.info('u_inf = ' + str(u_inf))
+logging.info('tsr = ' + str(tsr))
+logging.info('r = ' + str(r))
+logging.info('omega = ' + str(omega))
+logging.info('ro = ' + str(ro))
+logging.info('mu = ' + str(mu))
+logging.info('c = ' + str(c))
+logging.info('epsilon = ' + str(epsilon))
+logging.info('p_max = ' + str(p_max))
+logging.info('p_atm = ' + str(p_atm))
+
+logging.info('####################')
+logging.info('##### Inputs  ######')
+logging.info('####################')
+
 n = 180
 dteta = 2*pi/n
 
+logging.info('n = ' + str(180))
+logging.info('dteta = ' + str(dteta))
 
 
-####################
-### Perfil NACA ####
-####################
+logging.info('####################')
+logging.info('### Perfil NACA ####')
+logging.info('####################')
 
+
+logging.info('Abrindo documento com dados NACA')
 wb = load_workbook(filename = 'dadosNACA.xlsx')
 ws = wb[wb.sheetnames[0]]
 ws_range = str.split(ws.dimensions,':')
@@ -65,5 +83,4 @@ for naca in range(1,naca_range+1):
         dictNACA[naca_name]['alfa'].append(float(ws['A'+str(i)].value))
         dictNACA[naca_name]['cl'].append(float(ws[chr(96+2*naca).upper() + str(i)].value))
         dictNACA[naca_name]['cd'].append(float(ws[chr(96+2*naca+1).upper() + str(i)].value))
-
-print "Hi"
+logging.info('Fim da importacao dos dados NACA')
