@@ -1,0 +1,2591 @@
+INFO:root:##################################################
+INFO:root:## "SINGLE STREAM-TUBE MODEL FOR VAWT ANALYSIS" ##
+INFO:root:##################################################
+INFO:root:########## LEONARDO MORAIS BARRETO ###############
+INFO:root:########## ENGENHARIA MECANICA ###################
+INFO:root:########## UFRJ 2017.2 ###########################
+INFO:root:##################################################
+INFO:root:Numero NACA:0012
+INFO:root:Iniciando TSRmodule para tsr = 6
+INFO:root:Inicializacao das arrays do modulo tsr
+INFO:root:Inicializacao da iteracao para teta.
+INFO:root:Inicializacao da iteracao para teta = 0
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.128971818961 , u_linha = 8.85761702112
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0698429424088 , u_linha = 8.27936201662
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00428891526048 , u_linha = 8.31502445188
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000550162567671 , u_linha = 8.31045235207
+INFO:root:Calculo de U_LINHA: u_linha = 8.31502445188, alfa = 0.137706638138, re = 125360.650325
+INFO:root:Resultado para teta = 0
+INFO:root:f_l = 33.6693284251
+INFO:root:f_d = 0.754267278128
+INFO:root:f_n = 33.4541345044
+INFO:root:f_teta = 5.36897713811
+INFO:root:f_t = 0.019089696491
+INFO:root:f_r_mov = 0.185856302802
+INFO:root:f_r_perp = 0.0298276507673
+INFO:root:Inicializacao da iteracao para teta = 1
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.133696849316 , u_linha = 8.82070017751
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0646675931569 , u_linha = 8.2849334705
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00422067411842 , u_linha = 8.32004968889
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000536560845578 , u_linha = 8.31558787003
+INFO:root:Calculo de U_LINHA: u_linha = 8.32004968889, alfa = 0.13743966419, re = 125659.388614
+INFO:root:Resultado para teta = 1
+INFO:root:f_l = 33.6587529263
+INFO:root:f_d = 0.754234202889
+INFO:root:f_n = 33.4446874586
+INFO:root:f_teta = 5.35861916464
+INFO:root:f_t = 0.0190528681409
+INFO:root:f_r_mov = 0.12544091277
+INFO:root:f_r_perp = 0.172433379907
+INFO:root:Inicializacao da iteracao para teta = 2
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.138820825379 , u_linha = 8.78101258525
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0590926371904 , u_linha = 8.29107131605
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.0041625039669 , u_linha = 8.3257271885
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000524199178846 , u_linha = 8.32136513573
+INFO:root:Calculo de U_LINHA: u_linha = 8.3257271885, alfa = 0.137142927181, re = 125957.917907
+INFO:root:Resultado para teta = 2
+INFO:root:f_l = 33.6476257498
+INFO:root:f_d = 0.754212081074
+INFO:root:f_n = 33.4348069656
+INFO:root:f_teta = 5.34721283079
+INFO:root:f_t = 0.0190123122872
+INFO:root:f_r_mov = -0.050286568231
+INFO:root:f_r_perp = 0.156538656869
+INFO:root:Inicializacao da iteracao para teta = 3
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.144329659058 , u_linha = 8.73874055509
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0531447506707 , u_linha = 8.29775826117
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00411604627165 , u_linha = 8.33205337842
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000513259333672 , u_linha = 8.32777906808
+INFO:root:Calculo de U_LINHA: u_linha = 8.33205337842, alfa = 0.136816522182, re = 126256.217848
+INFO:root:Resultado para teta = 3
+INFO:root:f_l = 33.6358967631
+INFO:root:f_d = 0.754199916652
+INFO:root:f_n = 33.4244417664
+INFO:root:f_teta = 5.33475480164
+INFO:root:f_t = 0.0189680170725
+INFO:root:f_r_mov = -0.179650588396
+INFO:root:f_r_perp = -0.00313616518528
+INFO:root:Inicializacao da iteracao para teta = 4
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.150208601581 , u_linha = 8.69407513233
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0468511747008 , u_linha = 8.30497719489
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00408287584802 , u_linha = 8.33902439619
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000503903542869 , u_linha = 8.33482444862
+INFO:root:Calculo de U_LINHA: u_linha = 8.33902439619, alfa = 0.136460532583, re = 126554.267395
+INFO:root:Resultado para teta = 4
+INFO:root:f_l = 33.6235072411
+INFO:root:f_d = 0.754196550432
+INFO:root:f_n = 33.4135320057
+INFO:root:f_teta = 5.32124017481
+INFO:root:f_t = 0.018919965066
+INFO:root:f_r_mov = -0.143709277158
+INFO:root:f_r_perp = -0.159809106079
+INFO:root:Inicializacao da iteracao para teta = 5
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.156442278206 , u_linha = 8.64721066365
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.040239505414 , u_linha = 8.31271127336
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00406448730876 , u_linha = 8.34663606974
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000496272753583 , u_linha = 8.34249591632
+INFO:root:Calculo de U_LINHA: u_linha = 8.34663606974, alfa = 0.136075030227, re = 126852.044721
+INFO:root:Resultado para teta = 5
+INFO:root:f_l = 33.6103897533
+INFO:root:f_d = 0.754200657239
+INFO:root:f_n = 33.4020091165
+INFO:root:f_teta = 5.3066624984
+INFO:root:f_t = 0.0188681333276
+INFO:root:f_r_mov = 0.0243677745427
+INFO:root:f_r_perp = -0.169581654903
+INFO:root:Inicializacao da iteracao para teta = 6
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.163014722581 , u_linha = 8.59834343095
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.03325638159 , u_linha = 8.32159721841
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00397469328649 , u_linha = 8.35480500578
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000479898008829 , u_linha = 8.3507974747
+INFO:root:Calculo de U_LINHA: u_linha = 8.35480500578, alfa = 0.135658828405, re = 127149.488256
+INFO:root:Resultado para teta = 6
+INFO:root:f_l = 33.595592
+INFO:root:f_d = 0.754192048007
+INFO:root:f_n = 33.3889299076
+INFO:root:f_teta = 5.29083540219
+INFO:root:f_t = 0.0188118592078
+INFO:root:f_r_mov = 0.16989287217
+INFO:root:f_r_perp = -0.0236071196651
+INFO:root:Inicializacao da iteracao para teta = 7
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.169909410699 , u_linha = 8.54767036537
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0251622560752 , u_linha = 8.33787072702
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00297893598831 , u_linha = 8.36278292203
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000355412518154 , u_linha = 8.35981174028
+INFO:root:Calculo de U_LINHA: u_linha = 8.36278292203, alfa = 0.135200326505, re = 127446.174606
+INFO:root:Resultado para teta = 7
+INFO:root:f_l = 33.5707998463
+INFO:root:f_d = 0.753993341029
+INFO:root:f_n = 33.3660743204
+INFO:root:f_teta = 5.27208089389
+INFO:root:f_t = 0.0187451765116
+INFO:root:f_r_mov = 0.158991361908
+INFO:root:f_r_perp = 0.143864985285
+INFO:root:Inicializacao da iteracao para teta = 8
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.177109294436 , u_linha = 8.49538785163
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0168183202585 , u_linha = 8.35487292309
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00197161851287 , u_linha = 8.37137808711
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000232338227023 , u_linha = 8.36943354776
+INFO:root:Calculo de U_LINHA: u_linha = 8.37137808711, alfa = 0.134712518356, re = 127742.451578
+INFO:root:Resultado para teta = 8
+INFO:root:f_l = 33.5449774073
+INFO:root:f_d = 0.753795897224
+INFO:root:f_n = 33.3422982143
+INFO:root:f_teta = 5.25223942711
+INFO:root:f_t = 0.0186746290742
+INFO:root:f_r_mov = 0.00191689373901
+INFO:root:f_r_perp = 0.179018203808
+INFO:root:Inicializacao da iteracao para teta = 9
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.184596834628 , u_linha = 8.44169063067
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00825673415568 , u_linha = 8.3725606234
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000958114291919 , u_linha = 8.38059018663
+INFO:root:Calculo de U_LINHA: u_linha = 8.3725606234, alfa = 0.134071201987, re = 128033.52491
+INFO:root:Resultado para teta = 9
+INFO:root:f_l = 33.4297016122
+INFO:root:f_d = 0.751709975427
+INFO:root:f_n = 33.2301814961
+INFO:root:f_teta = 5.21350913194
+INFO:root:f_t = 0.018536921358
+INFO:root:f_r_mov = -0.156269113793
+INFO:root:f_r_perp = 0.0496921451208
+INFO:root:Inicializacao da iteracao para teta = 10
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.192354033655 , u_linha = 8.3867708061
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000491083684664 , u_linha = 8.39089143599
+INFO:root:Calculo de U_LINHA: u_linha = 8.3867708061, alfa = 0.133593407814, re = 128331.39488
+INFO:root:Resultado para teta = 10
+INFO:root:f_l = 33.4500140843
+INFO:root:f_d = 0.752545247757
+INFO:root:f_n = 33.2521995447
+INFO:root:f_teta = 5.20126074645
+INFO:root:f_t = 0.0184933715429
+INFO:root:f_r_mov = -0.17072538648
+INFO:root:f_r_perp = -0.124745157464
+INFO:root:Inicializacao da iteracao para teta = 11
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.200362467531 , u_linha = 8.33081695779
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00939460004425 , u_linha = 8.40982388967
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00106689430199 , u_linha = 8.40086105888
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000120805091836 , u_linha = 8.40187604829
+INFO:root:Calculo de U_LINHA: u_linha = 8.40086105888, alfa = 0.133074407751, re = 128628.592127
+INFO:root:Resultado para teta = 11
+INFO:root:f_l = 33.4608609977
+INFO:root:f_d = 0.753202974757
+INFO:root:f_n = 33.2649586197
+INFO:root:f_teta = 5.18619730023
+INFO:root:f_t = 0.018439812623
+INFO:root:f_r_mov = -0.0279940324946
+INFO:root:f_r_perp = -0.184676001656
+INFO:root:Inicializacao da iteracao para teta = 12
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.200613920542 , u_linha = 8.32907217624
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0111669268692 , u_linha = 8.42313268292
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.0012512258817 , u_linha = 8.4126066118
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000139705106761 , u_linha = 8.41378206012
+INFO:root:Calculo de U_LINHA: u_linha = 8.4126066118, alfa = 0.132480890127, re = 128923.472807
+INFO:root:Resultado para teta = 12
+INFO:root:f_l = 33.4379296465
+INFO:root:f_d = 0.75316265141
+INFO:root:f_n = 33.2444089509
+INFO:root:f_teta = 5.16350261985
+INFO:root:f_t = 0.0183591204262
+INFO:root:f_r_mov = 0.140460169062
+INFO:root:f_r_perp = -0.0748933743961
+INFO:root:Inicializacao da iteracao para teta = 13
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.199062422198 , u_linha = 8.33984938138
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0113571072861 , u_linha = 8.43565400898
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00125437163027 , u_linha = 8.42508582035
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000138047643948 , u_linha = 8.42624904418
+INFO:root:Calculo de U_LINHA: u_linha = 8.42508582035, alfa = 0.131860211189, re = 129217.956165
+INFO:root:Resultado para teta = 13
+INFO:root:f_l = 33.4149477878
+INFO:root:f_d = 0.753145858388
+INFO:root:f_n = 33.2238961109
+INFO:root:f_teta = 5.13995275643
+INFO:root:f_t = 0.0182753875784
+INFO:root:f_r_mov = 0.179491979512
+INFO:root:f_r_perp = 0.103465664258
+INFO:root:Inicializacao da iteracao para teta = 14
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.197450297213 , u_linha = 8.35107730423
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0115608205186 , u_linha = 8.44875180748
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00125803781813 , u_linha = 8.43813631289
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.00013639897407 , u_linha = 8.43928742303
+INFO:root:Calculo de U_LINHA: u_linha = 8.43813631289, alfa = 0.131210000011, re = 129511.905367
+INFO:root:Resultado para teta = 14
+INFO:root:f_l = 33.3900748524
+INFO:root:f_d = 0.753113480924
+INFO:root:f_n = 33.2015968655
+INFO:root:f_teta = 5.11519157302
+INFO:root:f_t = 0.0181873478152
+INFO:root:f_r_mov = 0.0533724466304
+INFO:root:f_r_perp = 0.186606573011
+INFO:root:Inicializacao da iteracao para teta = 15
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.195778915883 , u_linha = 8.36274989229
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0117777189245 , u_linha = 8.4624178714
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00126211732172 , u_linha = 8.45175077035
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.00013474637372 , u_linha = 8.4528897666
+INFO:root:Calculo de U_LINHA: u_linha = 8.45175077035, alfa = 0.13053024877, re = 129805.284763
+INFO:root:Resultado para teta = 15
+INFO:root:f_l = 33.3631644211
+INFO:root:f_d = 0.753062667992
+INFO:root:f_n = 33.1773630752
+INFO:root:f_teta = 5.08920248212
+INFO:root:f_t = 0.0180949421587
+INFO:root:f_r_mov = -0.121638862325
+INFO:root:f_r_perp = 0.0983812786917
+INFO:root:Inicializacao da iteracao para teta = 16
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.194049661219 , u_linha = 8.37486105041
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0120074228195 , u_linha = 8.47664369535
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00126650073052 , u_linha = 8.46592159946
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000133077537659 , u_linha = 8.46704837341
+INFO:root:Calculo de U_LINHA: u_linha = 8.46592159946, alfa = 0.129820945083, re = 130098.057167
+INFO:root:Resultado para teta = 16
+INFO:root:f_l = 33.3340632396
+INFO:root:f_d = 0.75299043581
+INFO:root:f_n = 33.1510396582
+INFO:root:f_teta = 5.06196846349
+INFO:root:f_t = 0.0179981100924
+INFO:root:f_r_mov = -0.184470916226
+INFO:root:f_r_perp = -0.0799552019813
+INFO:root:Inicializacao da iteracao para teta = 17
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.19226392771 , u_linha = 8.38740464052
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0122495201508 , u_linha = 8.49142046664
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00127107685568 , u_linha = 8.48064092024
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000131380686105 , u_linha = 8.48175525907
+INFO:root:Calculo de U_LINHA: u_linha = 8.48064092024, alfa = 0.129082072412, re = 130390.1838
+INFO:root:Resultado para teta = 17
+INFO:root:f_l = 33.3026112282
+INFO:root:f_d = 0.752893667375
+INFO:root:f_n = 33.1224645925
+INFO:root:f_teta = 5.03347214762
+INFO:root:f_t = 0.0178967898582
+INFO:root:f_r_mov = -0.0775180856663
+INFO:root:f_r_perp = -0.184604896568
+INFO:root:Inicializacao da iteracao para teta = 18
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.190423120103 , u_linha = 8.40037448125
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0125035662101 , u_linha = 8.50673905627
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00127573325088 , u_linha = 8.49590055344
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000129644666138 , u_linha = 8.49700214444
+INFO:root:Calculo de U_LINHA: u_linha = 8.49590055344, alfa = 0.128313610485, re = 130681.624233
+INFO:root:Resultado para teta = 18
+INFO:root:f_l = 33.2686414991
+INFO:root:f_d = 0.752769112109
+INFO:root:f_n = 33.0914689251
+INFO:root:f_teta = 5.00369590356
+INFO:root:f_t = 0.0177909187682
+INFO:root:f_r_mov = 0.100517433451
+INFO:root:f_r_perp = -0.119706928509
+INFO:root:Inicializacao da iteracao para teta = 19
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.188528652232 , u_linha = 8.41376434739
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0127690833851 , u_linha = 8.52259000988
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00128035674379 , u_linha = 8.51169200762
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000127859046512 , u_linha = 8.51278044361
+INFO:root:Calculo de U_LINHA: u_linha = 8.51169200762, alfa = 0.127515535726, re = 130972.336329
+INFO:root:Resultado para teta = 19
+INFO:root:f_l = 33.2319803803
+INFO:root:f_d = 0.752613385627
+INFO:root:f_n = 33.057876788
+INFO:root:f_teta = 4.9726219314
+INFO:root:f_t = 0.0176804335339
+INFO:root:f_r_mov = 0.185720878597
+INFO:root:f_r_perp = 0.0548393144358
+INFO:root:Inicializacao da iteracao para teta = 20
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.186581945872 , u_linha = 8.42756796932
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0130455609531 , u_linha = 8.53896353863
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00128483397673 , u_linha = 8.52800646617
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.00012601420528 , u_linha = 8.52908125157
+INFO:root:Calculo de U_LINHA: u_linha = 8.52800646617, alfa = 0.126687821704, re = 131262.276185
+INFO:root:Resultado para teta = 20
+INFO:root:f_l = 33.1924474497
+INFO:root:f_d = 0.752422969666
+INFO:root:f_n = 33.0215054249
+INFO:root:f_teta = 4.94023235961
+INFO:root:f_t = 0.017565270612
+INFO:root:f_r_mov = 0.0999202538232
+INFO:root:f_r_perp = 0.178682481982
+INFO:root:Inicializacao da iteracao para teta = 21
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.184584429625 , u_linha = 8.4417790323
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0133324549161 , u_linha = 8.55584951016
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00128905195462 , u_linha = 8.5448347742
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000124101409587 , u_linha = 8.54589533185
+INFO:root:Calculo de U_LINHA: u_linha = 8.5448347742, alfa = 0.12583043959, re = 131551.398075
+INFO:root:Resultado para teta = 21
+INFO:root:f_l = 33.1498555792
+INFO:root:f_d = 0.752194212184
+INFO:root:f_n = 32.9821652275
+INFO:root:f_teta = 4.90650934727
+INFO:root:f_t = 0.0174453665681
+INFO:root:f_r_mov = -0.0775568791651
+INFO:root:f_r_perp = 0.138373754298
+INFO:root:Inicializacao da iteracao para teta = 22
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.182537537843 , u_linha = 8.45639117574
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0136291878793 , u_linha = 8.57323743954
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00129289859839 , u_linha = 8.56216742528
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000122112887132 , u_linha = 8.56321310395
+INFO:root:Calculo de U_LINHA: u_linha = 8.56216742528, alfa = 0.12494335863, re = 131839.654399
+INFO:root:Resultado para teta = 22
+INFO:root:f_l = 33.1040109925
+INFO:root:f_d = 0.75192332769
+INFO:root:f_n = 32.9396597848
+INFO:root:f_teta = 4.87143519148
+INFO:root:f_t = 0.0173206584586
+INFO:root:f_r_mov = -0.183230488884
+INFO:root:f_r_perp = -0.028682241536
+INFO:root:Inicializacao da iteracao para teta = 23
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.18044270958 , u_linha = 8.47139799234
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.013935148973 , u_linha = 8.59111648033
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00129626330215 , u_linha = 8.57999454827
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000120041888756 , u_linha = 8.58102463067
+INFO:root:Calculo de U_LINHA: u_linha = 8.57999454827, alfa = 0.124026546635, re = 132126.995625
+INFO:root:Resultado para teta = 23
+INFO:root:f_l = 33.054713335
+INFO:root:f_d = 0.751606397804
+INFO:root:f_n = 32.8937859463
+INFO:root:f_teta = 4.83499244003
+INFO:root:f_t = 0.0171910842312
+INFO:root:f_r_mov = -0.120102025404
+INFO:root:f_r_perp = -0.168953535908
+INFO:root:Inicializacao da iteracao para teta = 24
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.178301387573 , u_linha = 8.4867930272
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0142789695426 , u_linha = 8.60973111557
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00133147756206 , u_linha = 8.59828269509
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000120825404365 , u_linha = 8.59932171161
+INFO:root:Calculo de U_LINHA: u_linha = 8.59828269509, alfa = 0.123079659852, re = 132413.345475
+INFO:root:Resultado para teta = 24
+INFO:root:f_l = 33.0015139488
+INFO:root:f_d = 0.751234143915
+INFO:root:f_n = 32.8440943036
+INFO:root:f_teta = 4.79711898853
+INFO:root:f_t = 0.0170564230703
+INFO:root:f_r_mov = 0.0532644897922
+INFO:root:f_r_perp = -0.153933688613
+INFO:root:Inicializacao da iteracao para teta = 25
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.176115017263 , u_linha = 8.50256977695
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0146506152442 , u_linha = 8.62898978625
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00138795112007 , u_linha = 8.61702977013
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000126865864669 , u_linha = 8.61812311577
+INFO:root:Calculo de U_LINHA: u_linha = 8.61702977013, alfa = 0.122102789116, re = 132698.657749
+INFO:root:Resultado para teta = 25
+INFO:root:f_l = 32.9434737005
+INFO:root:f_d = 0.75075100888
+INFO:root:f_n = 32.7896412151
+INFO:root:f_teta = 4.75766364309
+INFO:root:f_t = 0.0169161373976
+INFO:root:f_r_mov = 0.177063885905
+INFO:root:f_r_perp = 0.00208912878353
+INFO:root:Inicializacao da iteracao para teta = 26
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.173271901566 , u_linha = 8.52317351728
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0144681554636 , u_linha = 8.64829844366
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00134621948194 , u_linha = 8.63667158811
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000124663959745 , u_linha = 8.63774840403
+INFO:root:Calculo de U_LINHA: u_linha = 8.63667158811, alfa = 0.121101744898, re = 132983.37843
+INFO:root:Resultado para teta = 26
+INFO:root:f_l = 32.874909464
+INFO:root:f_d = 0.749595428611
+INFO:root:f_n = 32.7246938554
+INFO:root:f_teta = 4.71559037218
+INFO:root:f_t = 0.0167665435455
+INFO:root:f_r_mov = 0.137589722554
+INFO:root:f_r_perp = 0.155583879815
+INFO:root:Inicializacao da iteracao para teta = 27
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.170011110815 , u_linha = 8.54692738177
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0139476786962 , u_linha = 8.66782339752
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00126968889818 , u_linha = 8.65683191414
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000115050976314 , u_linha = 8.65782800571
+INFO:root:Calculo de U_LINHA: u_linha = 8.65683191414, alfa = 0.120071573704, re = 133267.065753
+INFO:root:Resultado para teta = 27
+INFO:root:f_l = 32.8022243015
+INFO:root:f_d = 0.748361636053
+INFO:root:f_n = 32.6556916216
+INFO:root:f_teta = 4.67213103899
+INFO:root:f_t = 0.016612021472
+INFO:root:f_r_mov = -0.0281760066038
+INFO:root:f_r_perp = 0.16592336998
+INFO:root:Inicializacao da iteracao para teta = 28
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.166711771756 , u_linha = 8.57109719991
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0134342897981 , u_linha = 8.68781178109
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00119571595371 , u_linha = 8.67743603239
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000105953020147 , u_linha = 8.67835553037
+INFO:root:Calculo de U_LINHA: u_linha = 8.67743603239, alfa = 0.119011407426, re = 133549.590786
+INFO:root:Resultado para teta = 28
+INFO:root:f_l = 32.7245126339
+INFO:root:f_d = 0.747029659579
+INFO:root:f_n = 32.5817310339
+INFO:root:f_teta = 4.62714871318
+INFO:root:f_t = 0.0164520843135
+INFO:root:f_r_mov = -0.167276911434
+INFO:root:f_r_perp = 0.0242914390809
+INFO:root:Inicializacao da iteracao para teta = 29
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.163377086938 , u_linha = 8.595665251
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0129286730088 , u_linha = 8.70825138564
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00112435505187 , u_linha = 8.69847121559
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 9.7364005034e-05 , u_linha = 8.69931821605
+INFO:root:Calculo de U_LINHA: u_linha = 8.69847121559, alfa = 0.117921205863, re = 133830.890774
+INFO:root:Resultado para teta = 29
+INFO:root:f_l = 32.6415200704
+INFO:root:f_d = 0.745594037372
+INFO:root:f_n = 32.5025537842
+INFO:root:f_teta = 4.5806291377
+INFO:root:f_t = 0.0162866813785
+INFO:root:f_r_mov = -0.151964671106
+INFO:root:f_r_perp = -0.138868722954
+INFO:root:Inicializacao da iteracao para teta = 30
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.160010250971 , u_linha = 8.62061347443
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0124314777847 , u_linha = 8.72912945331
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00105564872428 , u_linha = 8.71992427637
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 8.92758192278e-05 , u_linha = 8.72070282426
+INFO:root:Calculo de U_LINHA: u_linha = 8.71992427637, alfa = 0.116800931499, re = 134110.900633
+INFO:root:Resultado para teta = 30
+INFO:root:f_l = 32.5529864727
+INFO:root:f_d = 0.744049179874
+INFO:root:f_n = 32.4178956039
+INFO:root:f_teta = 4.53255938696
+INFO:root:f_t = 0.0161157667092
+INFO:root:f_r_mov = 0.00290108548229
+INFO:root:f_r_perp = -0.174059734367
+INFO:root:Inicializacao da iteracao para teta = 31
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.156614448142 , u_linha = 8.64592346747
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0119433176957 , u_linha = 8.75043266476
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000989627928628 , u_linha = 8.74178155358
+INFO:root:Calculo de U_LINHA: u_linha = 8.75043266476, alfa = 0.115756056957, re = 134400.484234
+INFO:root:Resultado para teta = 31
+INFO:root:f_l = 32.546607196
+INFO:root:f_d = 0.744355217752
+INFO:root:f_n = 32.4147683427
+INFO:root:f_teta = 4.49843268125
+INFO:root:f_t = 0.0159944273111
+INFO:root:f_r_mov = 0.15463125263
+INFO:root:f_r_perp = -0.0498993319867
+INFO:root:Inicializacao da iteracao para teta = 32
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.153192850094 , u_linha = 8.67157648366
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0114647693968 , u_linha = 8.77214712759
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000926312389207 , u_linha = 8.76402889904
+INFO:root:Calculo de U_LINHA: u_linha = 8.77214712759, alfa = 0.114567583476, re = 134677.250863
+INFO:root:Resultado para teta = 32
+INFO:root:f_l = 32.440212129
+INFO:root:f_d = 0.742442136285
+INFO:root:f_n = 32.3124179932
+INFO:root:f_teta = 4.44604645277
+INFO:root:f_t = 0.0158081651654
+INFO:root:f_r_mov = 0.163374680914
+INFO:root:f_r_perp = 0.119594029054
+INFO:root:Inicializacao da iteracao para teta = 33
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.149748613586 , u_linha = 8.69755343198
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0109963716776 , u_linha = 8.79425836559
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000865710977811 , u_linha = 8.78665166479
+INFO:root:Calculo de U_LINHA: u_linha = 8.79425836559, alfa = 0.11334937549, re = 134952.514696
+INFO:root:Resultado para teta = 33
+INFO:root:f_l = 32.3277352603
+INFO:root:f_d = 0.740408294189
+INFO:root:f_n = 32.2040280585
+INFO:root:f_teta = 4.39214401525
+INFO:root:f_t = 0.0156165120542
+INFO:root:f_r_mov = 0.0220232897336
+INFO:root:f_r_perp = 0.178571534517
+INFO:root:Inicializacao da iteracao para teta = 34
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.146284878313 , u_linha = 8.72383487665
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0105386245933 , u_linha = 8.81675130883
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00080782213275 , u_linha = 8.80963469094
+INFO:root:Calculo de U_LINHA: u_linha = 8.81675130883, alfa = 0.112101405475, re = 135226.203343
+INFO:root:Resultado para teta = 34
+INFO:root:f_l = 32.2088955625
+INFO:root:f_d = 0.738247633759
+INFO:root:f_n = 32.0893126156
+INFO:root:f_teta = 4.33671865649
+INFO:root:f_t = 0.015419444112
+INFO:root:f_r_mov = -0.138530855934
+INFO:root:f_r_perp = 0.0738771620689
+INFO:root:Inicializacao da iteracao para teta = 35
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.142804764803 , u_linha = 8.75040103786
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0100919886793 , u_linha = 8.83961028478
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00075263431341 , u_linha = 8.83296229427
+INFO:root:Calculo de U_LINHA: u_linha = 8.83961028478, alfa = 0.11082365041, re = 135498.241785
+INFO:root:Resultado para teta = 35
+INFO:root:f_l = 32.0834068407
+INFO:root:f_d = 0.735953978842
+INFO:root:f_n = 31.9679803633
+INFO:root:f_teta = 4.27976564116
+INFO:root:f_t = 0.0152169445019
+INFO:root:f_r_mov = -0.17067631191
+INFO:root:f_r_perp = -0.0975318112215
+INFO:root:Inicializacao da iteracao para teta = 36
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.139311372377 , u_linha = 8.77723179322
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00965688425446 , u_linha = 8.86281901057
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000700126487708 , u_linha = 8.85661825754
+INFO:root:Calculo de U_LINHA: u_linha = 8.86281901057, alfa = 0.109516092585, re = 135768.552352
+INFO:root:Resultado para teta = 36
+INFO:root:f_l = 31.9509782051
+INFO:root:f_d = 0.733521044423
+INFO:root:f_n = 31.8397350947
+INFO:root:f_teta = 4.22128241498
+INFO:root:f_t = 0.0150090041422
+INFO:root:f_r_mov = -0.0458939367393
+INFO:root:f_r_perp = -0.178434149105
+INFO:root:Inicializacao da iteracao para teta = 37
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.135717662148 , u_linha = 8.80500526961
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0091495814636 , u_linha = 8.88631129875
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000644328741254 , u_linha = 8.88058927984
+INFO:root:Calculo de U_LINHA: u_linha = 8.88631129875, alfa = 0.108178173816, re = 136036.984869
+INFO:root:Resultado para teta = 37
+INFO:root:f_l = 31.8108351612
+INFO:root:f_d = 0.730931690202
+INFO:root:f_n = 31.7037999096
+INFO:root:f_teta = 4.16118911257
+INFO:root:f_t = 0.0147953390669
+INFO:root:f_r_mov = 0.119936944871
+INFO:root:f_r_perp = -0.0956531755254
+INFO:root:Inicializacao da iteracao para teta = 38
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.13211686519 , u_linha = 8.83301036092
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00865430398849 , u_linha = 8.91012125887
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000591478947621 , u_linha = 8.90485422507
+INFO:root:Calculo de U_LINHA: u_linha = 8.91012125887, alfa = 0.106810480441, re = 136303.527123
+INFO:root:Resultado para teta = 38
+INFO:root:f_l = 31.6631892204
+INFO:root:f_d = 0.728190877407
+INFO:root:f_n = 31.5603770689
+INFO:root:f_teta = 4.0995746659
+INFO:root:f_t = 0.0145762654788
+INFO:root:f_r_mov = 0.174208163621
+INFO:root:f_r_perp = 0.0737161100591
+INFO:root:Inicializacao da iteracao para teta = 39
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.128513205426 , u_linha = 8.86121664498
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00819120708224 , u_linha = 8.93440016691
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000561755327915 , u_linha = 8.92938403785
+INFO:root:Calculo de U_LINHA: u_linha = 8.93440016691, alfa = 0.105414828811, re = 136568.341707
+INFO:root:Resultado para teta = 39
+INFO:root:f_l = 31.5093580318
+INFO:root:f_d = 0.725328451408
+INFO:root:f_n = 31.410768435
+INFO:root:f_teta = 4.03670747756
+INFO:root:f_t = 0.014352737698
+INFO:root:f_r_mov = 0.0681445524769
+INFO:root:f_r_perp = 0.174166184534
+INFO:root:Inicializacao da iteracao para teta = 40
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.124909816612 , u_linha = 8.88960150612
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00800692278923 , u_linha = 8.96135437872
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000672116517544 , u_linha = 8.95533534991
+INFO:root:Calculo de U_LINHA: u_linha = 8.96135437872, alfa = 0.104014527195, re = 136834.662521
+INFO:root:Resultado para teta = 40
+INFO:root:f_l = 31.3237382672
+INFO:root:f_d = 0.723969460522
+INFO:root:f_n = 31.2296125074
+INFO:root:f_teta = 3.97230872036
+INFO:root:f_t = 0.0141237643391
+INFO:root:f_r_mov = -0.09926887626
+INFO:root:f_r_perp = 0.114557285543
+INFO:root:Inicializacao da iteracao para teta = 41
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.121309800598 , u_linha = 8.91814197527
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00783523229077 , u_linha = 8.98856950531
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000637409079354 , u_linha = 8.98284375914
+INFO:root:Calculo de U_LINHA: u_linha = 8.98856950531, alfa = 0.102583478789, re = 137098.944819
+INFO:root:Resultado para teta = 41
+INFO:root:f_l = 31.0807054801
+INFO:root:f_d = 0.72364349874
+INFO:root:f_n = 30.991415697
+INFO:root:f_teta = 3.90261702462
+INFO:root:f_t = 0.0138759716431
+INFO:root:f_r_mov = -0.173433808397
+INFO:root:f_r_perp = -0.0487174896746
+INFO:root:Inicializacao da iteracao para teta = 42
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.117716225559 , u_linha = 8.94681473824
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00767586859117 , u_linha = 9.01602052702
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000604603077499 , u_linha = 9.01057270703
+INFO:root:Calculo de U_LINHA: u_linha = 9.01602052702, alfa = 0.101121653502, re = 137361.084013
+INFO:root:Resultado para teta = 42
+INFO:root:f_l = 30.8252231571
+INFO:root:f_d = 0.723209022158
+INFO:root:f_n = 30.740761901
+INFO:root:f_teta = 3.83130244394
+INFO:root:f_t = 0.0136224086896
+INFO:root:f_r_mov = -0.08781846988
+INFO:root:f_r_perp = -0.165039085536
+INFO:root:Inicializacao da iteracao para teta = 43
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.11413212429 , u_linha = 8.97559614518
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00752850677283 , u_linha = 9.04368156308
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000573590094798 , u_linha = 9.03849717063
+INFO:root:Calculo de U_LINHA: u_linha = 9.04368156308, alfa = 0.0996290348913, re = 137620.972011
+INFO:root:Resultado para teta = 43
+INFO:root:f_l = 30.5568604367
+INFO:root:f_d = 0.722659287181
+INFO:root:f_n = 30.4772117835
+INFO:root:f_teta = 3.75839238595
+INFO:root:f_t = 0.0133631729278
+INFO:root:f_r_mov = 0.0766231655265
+INFO:root:f_r_perp = -0.12924356323
+INFO:root:Inicializacao da iteracao para teta = 44
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.11056049256 , u_linha = 9.00446222155
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00739276449437 , u_linha = 9.07152587595
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000544260338502 , u_linha = 9.06659128991
+INFO:root:Calculo de U_LINHA: u_linha = 9.07152587595, alfa = 0.0981056213517, re = 137878.497241
+INFO:root:Resultado para teta = 44
+INFO:root:f_l = 30.2751890292
+INFO:root:f_d = 0.721987478388
+INFO:root:f_n = 30.2003283094
+INFO:root:f_teta = 3.68391982712
+INFO:root:f_t = 0.0130983816075
+INFO:root:f_r_mov = 0.168115603622
+INFO:root:f_r_perp = 0.0234330363257
+INFO:root:Inicializacao da iteracao para teta = 45
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.107004287522 , u_linha = 9.03338868035
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00726820266583 , u_linha = 9.0995258786
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00051650360745 , u_linha = 9.09482836694
+INFO:root:Calculo de U_LINHA: u_linha = 9.0995258786, alfa = 0.0965514273134, re = 138133.5447
+INFO:root:Resultado para teta = 45
+INFO:root:f_l = 29.9797847594
+INFO:root:f_d = 0.72118672436
+INFO:root:f_n = 29.9096783062
+INFO:root:f_teta = 3.60792360874
+INFO:root:f_t = 0.0128281728311
+INFO:root:f_r_mov = 0.104345592265
+INFO:root:f_r_perp = 0.151919846078
+INFO:root:Inicializacao da iteracao para teta = 46
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.103116560159 , u_linha = 9.06522516402
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00681797166266 , u_linha = 9.12745589969
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000467111792157 , u_linha = 9.12319434803
+INFO:root:Calculo de U_LINHA: u_linha = 9.12745589969, alfa = 0.0949646457764, re = 138385.676797
+INFO:root:Resultado para teta = 46
+INFO:root:f_l = 29.6683724565
+INFO:root:f_d = 0.720212719969
+INFO:root:f_n = 29.6029860524
+INFO:root:f_teta = 3.53018125323
+INFO:root:f_t = 0.0125517555671
+INFO:root:f_r_mov = -0.053390451974
+INFO:root:f_r_perp = 0.139833118881
+INFO:root:Inicializacao da iteracao para teta = 47
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0991962394544 , u_linha = 9.09755659732
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00632517743771 , u_linha = 9.15546654776
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000417302681812 , u_linha = 9.1516475407
+INFO:root:Calculo de U_LINHA: u_linha = 9.15546654776, alfa = 0.0933470869988, re = 138635.054582
+INFO:root:Resultado para teta = 47
+INFO:root:f_l = 29.3422905657
+INFO:root:f_d = 0.719093137549
+INFO:root:f_n = 29.2815715303
+INFO:root:f_teta = 3.451003702
+INFO:root:f_t = 0.0122702353849
+INFO:root:f_r_mov = -0.159059392877
+INFO:root:f_r_perp = 0.00107701030678
+INFO:root:Inicializacao da iteracao para teta = 48
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0953135901089 , u_linha = 9.12980546421
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0058540347415 , u_linha = 9.18356638086
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000371473655067 , u_linha = 9.18015619468
+INFO:root:Calculo de U_LINHA: u_linha = 9.18356638086, alfa = 0.0916991762582, re = 138881.616413
+INFO:root:Resultado para teta = 48
+INFO:root:f_l = 29.0014997253
+INFO:root:f_d = 0.717828360408
+INFO:root:f_n = 28.9453841817
+INFO:root:f_teta = 3.37050060824
+INFO:root:f_t = 0.0119840021626
+INFO:root:f_r_mov = -0.117325703561
+INFO:root:f_r_perp = -0.135527962261
+INFO:root:Inicializacao da iteracao para teta = 49
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0914720203154 , u_linha = 9.16193893556
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00540456359647 , u_linha = 9.21172428529
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000329447567835 , u_linha = 9.2086905046
+INFO:root:Calculo de U_LINHA: u_linha = 9.21172428529, alfa = 0.0900209894062, re = 139125.235317
+INFO:root:Resultado para teta = 49
+INFO:root:f_l = 28.645600218
+INFO:root:f_d = 0.716411371031
+INFO:root:f_n = 28.5940147706
+INFO:root:f_teta = 3.28873431991
+INFO:root:f_t = 0.0116932775819
+INFO:root:f_r_mov = 0.0303250475217
+INFO:root:f_r_perp = -0.146016935698
+INFO:root:Inicializacao da iteracao para teta = 50
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0876748792622 , u_linha = 9.19392383759
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00497672269425 , u_linha = 9.23990829892
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000291042468883 , u_linha = 9.23721987564
+INFO:root:Calculo de U_LINHA: u_linha = 9.23990829892, alfa = 0.0883126236585, re = 139365.781086
+INFO:root:Resultado para teta = 50
+INFO:root:f_l = 28.2742043697
+INFO:root:f_d = 0.714835175424
+INFO:root:f_n = 28.2270660041
+INFO:root:f_teta = 3.20577418587
+INFO:root:f_t = 0.0113983082164
+INFO:root:f_r_mov = 0.146650251361
+INFO:root:f_r_perp = -0.0239589396052
+INFO:root:Inicializacao da iteracao para teta = 51
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0839254555148 , u_linha = 9.22572668547
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0045749820369 , u_linha = 9.26812820552
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000257879049022 , u_linha = 9.26573876562
+INFO:root:Calculo de U_LINHA: u_linha = 9.26812820552, alfa = 0.0865745520958, re = 139603.1934
+INFO:root:Resultado para teta = 51
+INFO:root:f_l = 27.887308569
+INFO:root:f_d = 0.712290154735
+INFO:root:f_n = 27.844453203
+INFO:root:f_teta = 3.12093887458
+INFO:root:f_t = 0.0110966715541
+INFO:root:f_r_mov = 0.126425678291
+INFO:root:f_r_perp = 0.116546571143
+INFO:root:Inicializacao da iteracao para teta = 52
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0802269754577 , u_linha = 9.25731371943
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00419779028842 , u_linha = 9.29633779594
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000226422506966 , u_linha = 9.29423337232
+INFO:root:Calculo de U_LINHA: u_linha = 9.29633779594, alfa = 0.0848067897319, re = 139837.316353
+INFO:root:Resultado para teta = 52
+INFO:root:f_l = 27.4844277614
+INFO:root:f_d = 0.708299664918
+INFO:root:f_n = 27.4456469924
+INFO:root:f_teta = 3.03382716246
+INFO:root:f_t = 0.0107869410221
+INFO:root:f_r_mov = -0.00822294358203
+INFO:root:f_r_perp = 0.147689704145
+INFO:root:Inicializacao da iteracao para teta = 53
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0765826017954 , u_linha = 9.28865094357
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00384210153849 , u_linha = 9.32447652919
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000198013122407 , u_linha = 9.32263052601
+INFO:root:Calculo de U_LINHA: u_linha = 9.32447652919, alfa = 0.0830092799723, re = 140067.966449
+INFO:root:Resultado para teta = 53
+INFO:root:f_l = 27.0649887132
+INFO:root:f_d = 0.704069292381
+INFO:root:f_n = 27.030173232
+INFO:root:f_teta = 2.94571099022
+INFO:root:f_t = 0.0104736390763
+INFO:root:f_r_mov = -0.131417009562
+INFO:root:f_r_perp = 0.044427387227
+INFO:root:Inicializacao da iteracao para teta = 54
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0729897616534 , u_linha = 9.31975341926
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00350211574614 , u_linha = 9.35250698122
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000172187962175 , u_linha = 9.35089686935
+INFO:root:Calculo de U_LINHA: u_linha = 9.35250698122, alfa = 0.0811821971705, re = 140294.997791
+INFO:root:Resultado para teta = 54
+INFO:root:f_l = 26.6286510504
+INFO:root:f_d = 0.699591544458
+INFO:root:f_n = 26.5976825308
+INFO:root:f_teta = 2.85668610186
+INFO:root:f_t = 0.0101571061399
+INFO:root:f_r_mov = -0.131411136466
+INFO:root:f_r_perp = -0.0957309533152
+INFO:root:Inicializacao da iteracao para teta = 55
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0694519001613 , u_linha = 9.35058416231
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00317788310781 , u_linha = 9.38039395781
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000148813805007 , u_linha = 9.3789982334
+INFO:root:Calculo de U_LINHA: u_linha = 9.38039395781, alfa = 0.079325766769, re = 140518.267024
+INFO:root:Resultado para teta = 55
+INFO:root:f_l = 26.1751222395
+INFO:root:f_d = 0.694859743926
+INFO:root:f_n = 26.147873418
+INFO:root:f_teta = 2.76685937673
+INFO:root:f_t = 0.00983772222838
+INFO:root:f_r_mov = -0.0121534130775
+INFO:root:f_r_perp = -0.144890278327
+INFO:root:Inicializacao da iteracao para teta = 56
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0659769644077 , u_linha = 9.38106575835
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00287386897223 , u_linha = 9.40810341485
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000127953976947 , u_linha = 9.40689976461
+INFO:root:Calculo de U_LINHA: u_linha = 9.40810341485, alfa = 0.0774402551982, re = 140737.631754
+INFO:root:Resultado para teta = 56
+INFO:root:f_l = 25.7041486378
+INFO:root:f_d = 0.689867828856
+INFO:root:f_n = 25.6804835063
+INFO:root:f_teta = 2.67634718446
+INFO:root:f_t = 0.0095159011003
+INFO:root:f_r_mov = 0.113973629709
+INFO:root:f_r_perp = -0.0617231592986
+INFO:root:Inicializacao da iteracao para teta = 57
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0625678568499 , u_linha = 9.41116365937
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00258964787032 , u_linha = 9.43559853703
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000109424926474 , u_linha = 9.43456616032
+INFO:root:Calculo de U_LINHA: u_linha = 9.43559853703, alfa = 0.0755259410756, re = 140952.943697
+INFO:root:Resultado para teta = 57
+INFO:root:f_l = 25.2154856723
+INFO:root:f_d = 0.684609656203
+INFO:root:f_n = 25.195259817
+INFO:root:f_teta = 2.5852712964
+INFO:root:f_t = 0.00919207572054
+INFO:root:f_r_mov = 0.132222126269
+INFO:root:f_r_perp = 0.0739760233879
+INFO:root:Inicializacao da iteracao para teta = 58
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0592274098252 , u_linha = 9.44084330451
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00232474659337 , u_linha = 9.46284201424
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 9.30469423993e-05 , u_linha = 9.46196160765
+INFO:root:Calculo de U_LINHA: u_linha = 9.46284201424, alfa = 0.0735831336912, re = 141164.052801
+INFO:root:Resultado para teta = 58
+INFO:root:f_l = 24.7089187553
+INFO:root:f_d = 0.679079457605
+INFO:root:f_n = 24.6919797035
+INFO:root:f_teta = 2.4937612422
+INFO:root:f_t = 0.00886670663892
+INFO:root:f_r_mov = 0.0301043378544
+INFO:root:f_r_perp = 0.137851100429
+INFO:root:Inicializacao da iteracao para teta = 59
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0559583843626 , u_linha = 9.4700701733
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0020786468597 , u_linha = 9.48979610818
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 7.86450205058e-05 , u_linha = 9.48904984166
+INFO:root:Calculo de U_LINHA: u_linha = 9.48979610818, alfa = 0.0716121739709, re = 141370.807516
+INFO:root:Resultado para teta = 59
+INFO:root:f_l = 24.1842656374
+INFO:root:f_d = 0.673271878268
+INFO:root:f_n = 24.1704532714
+INFO:root:f_teta = 2.40195418797
+INFO:root:f_t = 0.00854028155723
+INFO:root:f_r_mov = -0.0950441276391
+INFO:root:f_r_perp = 0.0752119270935
+INFO:root:Inicializacao da iteracao para teta = 60
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0527634690437 , u_linha = 9.498809841
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00184849429981 , u_linha = 9.51640085374
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 6.5138545342e-05 , u_linha = 9.5157810096
+INFO:root:Calculo de U_LINHA: u_linha = 9.51640085374, alfa = 0.0696132951629, re = 141573.01441
+INFO:root:Resultado para teta = 60
+INFO:root:f_l = 23.6412224542
+INFO:root:f_d = 0.667548506404
+INFO:root:f_n = 23.6303955006
+INFO:root:f_teta = 2.31034618952
+INFO:root:f_t = 0.0082145642294
+INFO:root:f_r_mov = -0.1289450748
+INFO:root:f_r_perp = -0.0522399957198
+INFO:root:Inicializacao da iteracao para teta = 61
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0496452789096 , u_linha = 9.52702803597
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00162335190674 , u_linha = 9.54251890223
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 5.3805289725e-05 , u_linha = 9.54200549186
+INFO:root:Calculo de U_LINHA: u_linha = 9.54251890223, alfa = 0.0675863044636, re = 141770.333468
+INFO:root:Resultado para teta = 61
+INFO:root:f_l = 23.0790028868
+INFO:root:f_d = 0.664925332816
+INFO:root:f_n = 23.0712172018
+INFO:root:f_teta = 2.22204451616
+INFO:root:f_t = 0.00790060272412
+INFO:root:f_r_mov = -0.0450081977537
+INFO:root:f_r_perp = -0.127016812439
+INFO:root:Inicializacao da iteracao para teta = 62
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0466197756754 , u_linha = 9.55456817501
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00142790533169 , u_linha = 9.56823070264
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 4.44044539554e-05 , u_linha = 9.56780584945
+INFO:root:Calculo de U_LINHA: u_linha = 9.56823070264, alfa = 0.0655324322965, re = 141962.830255
+INFO:root:Resultado para teta = 62
+INFO:root:f_l = 22.4984110502
+INFO:root:f_d = 0.662103101364
+INFO:root:f_n = 22.4934768045
+INFO:root:f_teta = 2.13400245054
+INFO:root:f_t = 0.00758756426859
+INFO:root:f_r_mov = 0.0754005795295
+INFO:root:f_r_perp = -0.0843859884418
+INFO:root:Inicializacao da iteracao para teta = 63
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0436809611376 , u_linha = 9.58147209
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00125320507496 , u_linha = 9.59349470625
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 3.64680002835e-05 , u_linha = 9.59314486344
+INFO:root:Calculo de U_LINHA: u_linha = 9.59349470625, alfa = 0.0634521390237, re = 142150.344981
+INFO:root:Resultado para teta = 63
+INFO:root:f_l = 21.8994007405
+INFO:root:f_d = 0.65907709439
+INFO:root:f_n = 21.8971219262
+INFO:root:f_teta = 2.04638233037
+INFO:root:f_t = 0.00727602606356
+INFO:root:f_r_mov = 0.121837618897
+INFO:root:f_r_perp = 0.031567386215
+INFO:root:Inicializacao da iteracao para teta = 64
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0408265970236 , u_linha = 9.6077483306
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00109401828499 , u_linha = 9.61827089483
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 2.97059037734e-05 , u_linha = 9.61798518389
+INFO:root:Calculo de U_LINHA: u_linha = 9.61827089483, alfa = 0.0613459313297, re = 142332.720811
+INFO:root:Resultado para teta = 64
+INFO:root:f_l = 21.2819812739
+INFO:root:f_d = 0.655843209798
+INFO:root:f_n = 21.2821564252
+INFO:root:f_teta = 1.9593537617
+INFO:root:f_t = 0.00696659115271
+INFO:root:f_r_mov = 0.0563456852953
+INFO:root:f_r_perp = 0.11304402777
+INFO:root:Inicializacao da iteracao para teta = 65
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0380589792382 , u_linha = 9.63336399955
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000949619522134 , u_linha = 9.64252072547
+INFO:root:Calculo de U_LINHA: u_linha = 9.63336399955, alfa = 0.0591653865961, re = 142492.185424
+INFO:root:Resultado para teta = 65
+INFO:root:f_l = 20.5899802951
+INFO:root:f_d = 0.651004545382
+INFO:root:f_n = 20.5924472191
+INFO:root:f_teta = 1.86736897643
+INFO:root:f_t = 0.00663953413843
+INFO:root:f_r_mov = -0.0557683723327
+INFO:root:f_r_perp = 0.0887562059397
+INFO:root:Inicializacao da iteracao para teta = 66
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0353803250795 , u_linha = 9.65828667763
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000819262706432 , u_linha = 9.66620583959
+INFO:root:Calculo de U_LINHA: u_linha = 9.65828667763, alfa = 0.0570173483425, re = 142666.113934
+INFO:root:Resultado para teta = 66
+INFO:root:f_l = 19.9452499593
+INFO:root:f_d = 0.647546396909
+INFO:root:f_n = 19.9497393337
+INFO:root:f_teta = 1.78310328496
+INFO:root:f_t = 0.00633992279096
+INFO:root:f_r_mov = -0.111055831234
+INFO:root:f_r_perp = -0.0128453514684
+INFO:root:Inicializacao da iteracao para teta = 67
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0327927724147 , u_linha = 9.68248448972
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00070218507193 , u_linha = 9.68928816323
+INFO:root:Calculo de U_LINHA: u_linha = 9.68248448972, alfa = 0.0548440288096, re = 142834.239429
+INFO:root:Resultado para teta = 67
+INFO:root:f_l = 19.2812530109
+INFO:root:f_d = 0.643849146737
+INFO:root:f_n = 19.2875561334
+INFO:root:f_teta = 1.6998126409
+INFO:root:f_t = 0.00604377827877
+INFO:root:f_r_mov = -0.0635596541801
+INFO:root:f_r_perp = -0.0965611181581
+INFO:root:Inicializacao da iteracao para teta = 68
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0302983788963 , u_linha = 9.70592617132
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000597611211094 , u_linha = 9.71173001006
+INFO:root:Calculo de U_LINHA: u_linha = 9.70592617132, alfa = 0.0526461952791, re = 142996.419135
+INFO:root:Resultado para teta = 68
+INFO:root:f_l = 18.5982996506
+INFO:root:f_d = 0.639912055579
+INFO:root:f_n = 18.6062052509
+INFO:root:f_teta = 1.61770294497
+INFO:root:f_t = 0.00575183269324
+INFO:root:f_r_mov = 0.0374267286828
+INFO:root:f_r_perp = -0.0888611447983
+INFO:root:Inicializacao da iteracao para teta = 69
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0279030436095 , u_linha = 9.72854401217
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000498387255621 , u_linha = 9.7333950122
+INFO:root:Calculo de U_LINHA: u_linha = 9.72854401217, alfa = 0.0504244799392, re = 143152.440354
+INFO:root:Resultado para teta = 69
+INFO:root:f_l = 17.8965536644
+INFO:root:f_d = 0.638227341267
+INFO:root:f_n = 17.9059749896
+INFO:root:f_teta = 1.53945816399
+INFO:root:f_t = 0.00547362902751
+INFO:root:f_r_mov = 0.0978384270865
+INFO:root:f_r_perp = -0.00292250597056
+INFO:root:Inicializacao da iteracao para teta = 70
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0256139463764 , u_linha = 9.75025742906
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000417426156449 , u_linha = 9.75432914118
+INFO:root:Calculo de U_LINHA: u_linha = 9.75025742906, alfa = 0.0481795196015, re = 143302.065463
+INFO:root:Resultado para teta = 70
+INFO:root:f_l = 17.1761930656
+INFO:root:f_d = 0.636713999669
+INFO:root:f_n = 17.1869263721
+INFO:root:f_teta = 1.46319576189
+INFO:root:f_t = 0.00520247382006
+INFO:root:f_r_mov = 0.0667620226604
+INFO:root:f_r_perp = 0.0790415118768
+INFO:root:Inicializacao da iteracao para teta = 71
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0234238624141 , u_linha = 9.7711225693
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00034651792828 , u_linha = 9.77450961213
+INFO:root:Calculo de U_LINHA: u_linha = 9.7711225693, alfa = 0.045912577636, re = 143445.328718
+INFO:root:Resultado para teta = 71
+INFO:root:f_l = 16.4381478105
+INFO:root:f_d = 0.635014889163
+INFO:root:f_n = 16.4499702638
+INFO:root:f_teta = 1.38879832463
+INFO:root:f_t = 0.00493794959869
+INFO:root:f_r_mov = -0.0209032865562
+INFO:root:f_r_perp = 0.0845313917676
+INFO:root:Inicializacao da iteracao para teta = 72
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0213345104055 , u_linha = 9.79111143129
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000284879743365 , u_linha = 9.79390151544
+INFO:root:Calculo de U_LINHA: u_linha = 9.79111143129, alfa = 0.0436245466472, re = 143582.102031
+INFO:root:Resultado para teta = 72
+INFO:root:f_l = 15.6829297294
+INFO:root:f_d = 0.633129062868
+INFO:root:f_n = 15.6956202043
+INFO:root:f_teta = 1.31647041981
+INFO:root:f_t = 0.00468078371487
+INFO:root:f_r_mov = -0.0824858162613
+INFO:root:f_r_perp = 0.0150586572939
+INFO:root:Inicializacao da iteracao para teta = 73
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0193475253239 , u_linha = 9.81019696577
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00023173760291 , u_linha = 9.81247088425
+INFO:root:Calculo de U_LINHA: u_linha = 9.81019696577, alfa = 0.041316347958, re = 143712.261691
+INFO:root:Resultado para teta = 73
+INFO:root:f_l = 14.9110993475
+INFO:root:f_d = 0.631055946433
+INFO:root:f_n = 14.9244397415
+INFO:root:f_teta = 1.24641431132
+INFO:root:f_t = 0.00443169532914
+INFO:root:f_r_mov = -0.0657266784106
+INFO:root:f_r_perp = -0.0612113523845
+INFO:root:Inicializacao da iteracao para teta = 74
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0174644578741 , u_linha = 9.8283531406
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000186330498412 , u_linha = 9.83018480384
+INFO:root:Calculo de U_LINHA: u_linha = 9.8283531406, alfa = 0.0389889306667, re = 143835.688665
+INFO:root:Resultado para teta = 74
+INFO:root:f_l = 14.1232651525
+INFO:root:f_d = 0.628795345148
+INFO:root:f_n = 14.1370417126
+INFO:root:f_teta = 1.17882898386
+INFO:root:f_t = 0.00419139194263
+INFO:root:f_r_mov = 0.00703475699478
+INFO:root:f_r_perp = -0.0762479355428
+INFO:root:Inicializacao da iteracao para teta = 75
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0156867739656 , u_linha = 9.84555500409
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000147914515366 , u_linha = 9.84701152002
+INFO:root:Calculo de U_LINHA: u_linha = 9.84555500409, alfa = 0.036643270625, re = 143952.268893
+INFO:root:Resultado para teta = 75
+INFO:root:f_l = 13.3200826288
+INFO:root:f_d = 0.626347449627
+INFO:root:f_n = 13.3340872801
+INFO:root:f_teta = 1.11390915989
+INFO:root:f_t = 0.00396056590184
+INFO:root:f_r_mov = 0.0658819909185
+INFO:root:f_r_perp = -0.0230220388316
+INFO:root:Inicializacao da iteracao para teta = 76
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0140164509465 , u_linha = 9.86177294329
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00011462981396 , u_linha = 9.86290352609
+INFO:root:Calculo de U_LINHA: u_linha = 9.86177294329, alfa = 0.0342803519524, re = 144061.881824
+INFO:root:Resultado para teta = 76
+INFO:root:f_l = 12.5022320002
+INFO:root:f_d = 0.62412732705
+INFO:root:f_n = 12.5162778816
+INFO:root:f_teta = 1.05225762116
+INFO:root:f_t = 0.00374136043079
+INFO:root:f_r_mov = 0.0606291726775
+INFO:root:f_r_perp = 0.0441831634434
+INFO:root:Inicializacao da iteracao para teta = 77
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0124604806271 , u_linha = 9.87692872102
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 8.82941471175e-05 , u_linha = 9.87780087302
+INFO:root:Calculo de U_LINHA: u_linha = 9.87692872102, alfa = 0.0319010496239, re = 144164.311131
+INFO:root:Resultado para teta = 77
+INFO:root:f_l = 11.6702751402
+INFO:root:f_d = 0.622882003858
+INFO:root:f_n = 11.6842045782
+INFO:root:f_teta = 0.994795968144
+INFO:root:f_t = 0.00353705233118
+INFO:root:f_r_mov = 0.00351333342372
+INFO:root:f_r_perp = 0.0647099120902
+INFO:root:Inicializacao da iteracao para teta = 78
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0110138341883 , u_linha = 9.89106148882
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 6.68234611885e-05 , u_linha = 9.89172248795
+INFO:root:Calculo de U_LINHA: u_linha = 9.89106148882, alfa = 0.029506607635, re = 144259.581467
+INFO:root:Resultado para teta = 78
+INFO:root:f_l = 10.8252358815
+INFO:root:f_d = 0.621471423499
+INFO:root:f_n = 10.8388586349
+INFO:root:f_teta = 0.940570544565
+INFO:root:f_t = 0.00334425082512
+INFO:root:f_r_mov = -0.048967630378
+INFO:root:f_r_perp = 0.0264673083517
+INFO:root:Inicializacao da iteracao para teta = 79
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00967762787161 , u_linha = 9.90415130925
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 4.95838000941e-05 , u_linha = 9.90464241905
+INFO:root:Calculo de U_LINHA: u_linha = 9.90415130925, alfa = 0.0270980979292, re = 144347.601684
+INFO:root:Resultado para teta = 79
+INFO:root:f_l = 9.96794480259
+INFO:root:f_d = 0.61989574029
+INFO:root:f_n = 9.98108120089
+INFO:root:f_teta = 0.88974744542
+INFO:root:f_t = 0.00316354647261
+INFO:root:f_r_mov = -0.0518772604779
+INFO:root:f_r_perp = -0.0290550692766
+INFO:root:Inicializacao da iteracao para teta = 80
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00845289093366 , u_linha = 9.91617961523
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 3.59774057714e-05 , u_linha = 9.91653638649
+INFO:root:Calculo de U_LINHA: u_linha = 9.91617961523, alfa = 0.0246766128998, re = 144428.286935
+INFO:root:Resultado para teta = 80
+INFO:root:f_l = 9.09927103015
+INFO:root:f_d = 0.618155436353
+INFO:root:f_n = 9.11175317175
+INFO:root:f_teta = 0.842483638865
+INFO:root:f_t = 0.00299549738263
+INFO:root:f_r_mov = -0.0102397569386
+INFO:root:f_r_perp = -0.050828153009
+INFO:root:Inicializacao da iteracao para teta = 81
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00734056531249 , u_linha = 9.92712925931
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 2.54459990424e-05 , u_linha = 9.92738187146
+INFO:root:Calculo de U_LINHA: u_linha = 9.92712925931, alfa = 0.0222432639387, re = 144501.5589
+INFO:root:Resultado para teta = 81
+INFO:root:f_l = 8.22011989637
+INFO:root:f_d = 0.616251322297
+INFO:root:f_n = 8.23179278601
+INFO:root:f_teta = 0.798926099046
+INFO:root:f_t = 0.00284062612994
+INFO:root:f_r_mov = 0.0327238005872
+INFO:root:f_r_perp = -0.0253588485859
+INFO:root:Inicializacao da iteracao para teta = 82
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00634150532382 , u_linha = 9.93698455951
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 1.7473851766e-05 , u_linha = 9.93715819994
+INFO:root:Calculo de U_LINHA: u_linha = 9.93698455951, alfa = 0.0197991799256, re = 144567.345993
+INFO:root:Resultado para teta = 82
+INFO:root:f_l = 7.33143039331
+INFO:root:f_d = 0.614184536594
+INFO:root:f_n = 7.34215300798
+INFO:root:f_teta = 0.759210983974
+INFO:root:f_t = 0.00269941683191
+INFO:root:f_r_mov = 0.0400582538791
+INFO:root:f_r_perp = 0.0167821077033
+INFO:root:Inicializacao da iteracao para teta = 83
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00545659103182 , u_linha = 9.94573021769
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 1.12457548405e-05 , u_linha = 9.94584206619
+INFO:root:Calculo de U_LINHA: u_linha = 9.94573021769, alfa = 0.017345503979, re = 144625.58124
+INFO:root:Resultado para teta = 83
+INFO:root:f_l = 6.43417035663
+INFO:root:f_d = 0.612065448276
+INFO:root:f_n = 6.44381851902
+INFO:root:f_teta = 0.72357170688
+INFO:root:f_t = 0.00257269940224
+INFO:root:f_r_mov = 0.0128259575524
+INFO:root:f_r_perp = 0.0356695834261
+INFO:root:Inicializacao da iteracao para teta = 84
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00469690257946 , u_linha = 9.95325055181
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 7.13542510257e-06 , u_linha = 9.95332157299
+INFO:root:Calculo de U_LINHA: u_linha = 9.95325055181, alfa = 0.0148832636722, re = 144675.994655
+INFO:root:Resultado para teta = 84
+INFO:root:f_l = 5.52917495761
+INFO:root:f_d = 0.612159836728
+INFO:root:f_n = 5.5376731808
+INFO:root:f_teta = 0.694381168452
+INFO:root:f_t = 0.00246891082116
+INFO:root:f_r_mov = -0.0180924129037
+INFO:root:f_r_perp = 0.0199331825692
+INFO:root:Inicializacao da iteracao para teta = 85
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00405255257339 , u_linha = 9.95963804322
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 4.29140613208e-06 , u_linha = 9.95968078425
+INFO:root:Calculo de U_LINHA: u_linha = 9.95963804322, alfa = 0.0124138083354, re = 144718.748801
+INFO:root:Resultado para teta = 85
+INFO:root:f_l = 4.61768634119
+INFO:root:f_d = 0.612110715494
+INFO:root:f_n = 4.62492897688
+INFO:root:f_teta = 0.669385153093
+INFO:root:f_t = 0.00238003609989
+INFO:root:f_r_mov = -0.0259474137112
+INFO:root:f_r_perp = -0.00818480192756
+INFO:root:Inicializacao da iteracao para teta = 86
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00352403326615 , u_linha = 9.96488341934
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 2.39952815263e-06 , u_linha = 9.96490733041
+INFO:root:Calculo de U_LINHA: u_linha = 9.96488341934, alfa = 0.00993832121594, re = 144753.801254
+INFO:root:Resultado para teta = 86
+INFO:root:f_l = 3.70075007933
+INFO:root:f_d = 0.61191763647
+INFO:root:f_n = 3.70664865279
+INFO:root:f_teta = 0.648666054679
+INFO:root:f_t = 0.00230636819441
+INFO:root:f_r_mov = -0.0112291748418
+INFO:root:f_r_perp = -0.0203990453609
+INFO:root:Inicializacao da iteracao para teta = 87
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00311174817839 , u_linha = 9.96897904761
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 1.19995827336e-06 , u_linha = 9.96899100998
+INFO:root:Calculo de U_LINHA: u_linha = 9.96897904761, alfa = 0.00745799463093, re = 144781.117111
+INFO:root:Resultado para teta = 87
+INFO:root:f_l = 2.77942984196
+INFO:root:f_d = 0.61158041372
+INFO:root:f_n = 2.7839136652
+INFO:root:f_teta = 0.632292185908
+INFO:root:f_t = 0.00224814999434
+INFO:root:f_r_mov = 0.00592503747206
+INFO:root:f_r_perp = -0.0107090067857
+INFO:root:Inicializacao da iteracao para teta = 88
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00281601197245 , u_linha = 9.97191895683
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 4.88645611596e-07 , u_linha = 9.97192382957
+INFO:root:Calculo de U_LINHA: u_linha = 9.97191895683, alfa = 0.00497402819889, re = 144800.669087
+INFO:root:Resultado para teta = 88
+INFO:root:f_l = 1.85480392779
+INFO:root:f_d = 0.611099124525
+INFO:root:f_n = 1.85782059477
+INFO:root:f_teta = 0.62031737395
+INFO:root:f_t = 0.00220557288516
+INFO:root:f_r_mov = 0.0104367469472
+INFO:root:f_r_perp = 0.00380940170431
+INFO:root:Inicializacao da iteracao para teta = 89
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00263705035377 , u_linha = 9.97369885391
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 1.18457552008e-07 , u_linha = 9.97370003537
+INFO:root:Calculo de U_LINHA: u_linha = 9.97369885391, alfa = 0.00248762704686, re = 144812.437593
+INFO:root:Resultado para teta = 89
+INFO:root:f_l = 0.927961707431
+INFO:root:f_d = 0.610474109467
+INFO:root:f_n = 0.929477466525
+INFO:root:f_teta = 0.612780640835
+INFO:root:f_t = 0.00217877561186
+INFO:root:f_r_mov = 0.00556239971593
+INFO:root:f_r_perp = 0.00617800971605
+INFO:root:Inicializacao da iteracao para teta = 90
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.002575 , u_linha = 9.97431613595
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0 , u_linha = 9.97431613595
+INFO:root:Calculo de U_LINHA: u_linha = 9.97431613595, alfa = 8.7282127244e-18, re = 144816.410786
+INFO:root:Resultado para teta = 90
+INFO:root:f_l = 3.25629591032e-15
+INFO:root:f_d = 0.609705971515
+INFO:root:f_n = 3.26161755374e-15
+INFO:root:f_teta = 0.609705971515
+INFO:root:f_t = 0.00216784345428
+INFO:root:f_r_mov = 0.00302819502395
+INFO:root:f_r_perp = -0.00151773977462
+INFO:root:Inicializacao da iteracao para teta = 91
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00265641215885 , u_linha = 9.97350625671
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 2.07469135951e-07 , u_linha = 9.97350832591
+INFO:root:Calculo de U_LINHA: u_linha = 9.97350625671, alfa = -0.00248758585568, re = 144812.039045
+INFO:root:Resultado para teta = 91
+INFO:root:f_l = -0.927910503964
+INFO:root:f_d = 0.610450518596
+INFO:root:f_n = -0.929426179481
+INFO:root:f_teta = 0.612756884502
+INFO:root:f_t = 0.0021786911449
+INFO:root:f_r_mov = 0.00549519848726
+INFO:root:f_r_perp = -0.00393229486405
+INFO:root:Inicializacao da iteracao para teta = 92
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00289340752635 , u_linha = 9.97114940128
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 8.85605450692e-07 , u_linha = 9.97115823179
+INFO:root:Calculo de U_LINHA: u_linha = 9.97114940128, alfa = -0.00497369901978, re = 144799.077155
+INFO:root:Resultado para teta = 92
+INFO:root:f_l = -1.8543949288
+INFO:root:f_d = 0.611004696786
+INFO:root:f_n = -1.85741093306
+INFO:root:f_teta = 0.620220303595
+INFO:root:f_t = 0.00220522774611
+INFO:root:f_r_mov = 0.00377846713424
+INFO:root:f_r_perp = 0.00588475129992
+INFO:root:Inicializacao da iteracao para teta = 93
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00328569639243 , u_linha = 9.96725064053
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 2.24490223142e-06 , u_linha = 9.96727301608
+INFO:root:Calculo de U_LINHA: u_linha = 9.96725064053, alfa = -0.00745688560282, re = 144777.543665
+INFO:root:Resultado para teta = 93
+INFO:root:f_l = -2.77805297154
+INFO:root:f_d = 0.611367986653
+INFO:root:f_n = -2.78253459377
+INFO:root:f_teta = 0.632066420355
+INFO:root:f_t = 0.00224734727237
+INFO:root:f_r_mov = -0.00823685356418
+INFO:root:f_r_perp = 0.0157736882546
+INFO:root:Inicializacao da iteracao para teta = 94
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00383279957754 , u_linha = 9.96181834685
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 4.63168027371e-06 , u_linha = 9.96186448702
+INFO:root:Calculo de U_LINHA: u_linha = 9.96181834685, alfa = -0.00993569884698, re = 144747.469255
+INFO:root:Resultado para teta = 94
+INFO:root:f_l = -3.69749792584
+INFO:root:f_d = 0.611540370888
+INFO:root:f_n = -3.70339140332
+INFO:root:f_teta = 0.648246807524
+INFO:root:f_t = 0.00230487753786
+INFO:root:f_r_mov = -0.0208292850056
+INFO:root:f_r_perp = 0.00853729463387
+INFO:root:Inicializacao da iteracao para teta = 95
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00453404900467 , u_linha = 9.95486415807
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 8.52440026954e-06 , u_linha = 9.95494901804
+INFO:root:Calculo de U_LINHA: u_linha = 9.95486415807, alfa = -0.0124087026104, re = 144708.896602
+INFO:root:Resultado para teta = 95
+INFO:root:f_l = -4.61136326761
+INFO:root:f_d = 0.611522333531
+INFO:root:f_n = -4.6185962568
+INFO:root:f_teta = 0.668694821268
+INFO:root:f_t = 0.00237758158673
+INFO:root:f_r_mov = -0.0161971294745
+INFO:root:f_r_perp = -0.0148191484402
+INFO:root:Inicializacao da iteracao para teta = 96
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0053885884968 , u_linha = 9.9464029276
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 1.45285805766e-05 , u_linha = 9.94654743682
+INFO:root:Calculo de U_LINHA: u_linha = 9.9464029276, alfa = -0.0148744747952, re = 144661.880204
+INFO:root:Resultado para teta = 96
+INFO:root:f_l = -5.51830906382
+INFO:root:f_d = 0.611314856451
+INFO:root:f_n = -5.52679126426
+INFO:root:f_teta = 0.693326153336
+INFO:root:f_t = 0.0024651596563
+INFO:root:f_r_mov = 0.00932860299422
+INFO:root:f_r_perp = -0.0308954517136
+INFO:root:Inicializacao da iteracao para teta = 97
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00639537479892 , u_linha = 9.93645266106
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 2.33703851797e-05 , u_linha = 9.93668488521
+INFO:root:Calculo de U_LINHA: u_linha = 9.93645266106, alfa = -0.0173316107025, re = 144606.486144
+INFO:root:Resultado para teta = 97
+INFO:root:f_l = -6.41702814983
+INFO:root:f_d = 0.610919413123
+INFO:root:f_n = -6.42665207268
+INFO:root:f_teta = 0.722039525829
+INFO:root:f_t = 0.00256725164739
+INFO:root:f_r_mov = 0.0345538506972
+INFO:root:f_r_perp = -0.0172644441748
+INFO:root:Inicializacao da iteracao para teta = 98
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00756358862786 , u_linha = 9.92493189796
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 3.6478036768e-05 , u_linha = 9.9252939532
+INFO:root:Calculo de U_LINHA: u_linha = 9.92493189796, alfa = -0.0197785507565, re = 144542.581119
+INFO:root:Resultado para teta = 98
+INFO:root:f_l = -7.30603621018
+INFO:root:f_d = 0.612667829817
+INFO:root:f_n = -7.31672412043
+INFO:root:f_teta = 0.75704138546
+INFO:root:f_t = 0.00269170270386
+INFO:root:f_r_mov = 0.0308912903286
+INFO:root:f_r_perp = 0.0198613436928
+INFO:root:Inicializacao da iteracao para teta = 99
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.00888143251716 , u_linha = 9.91196752928
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 5.38593665882e-05 , u_linha = 9.91250141032
+INFO:root:Calculo de U_LINHA: u_linha = 9.91196752928, alfa = -0.0222140668816, re = 144470.465582
+INFO:root:Resultado para teta = 99
+INFO:root:f_l = -8.18427285217
+INFO:root:f_d = 0.614331238983
+INFO:root:f_n = -8.19589928294
+INFO:root:f_teta = 0.795970702215
+INFO:root:f_t = 0.00283011805232
+INFO:root:f_r_mov = -0.00623170716959
+INFO:root:f_r_perp = 0.0456727490553
+INFO:root:Inicializacao da iteracao para teta = 100
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0103471829196 , u_linha = 9.89758784807
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 7.69598374243e-05 , u_linha = 9.89834962345
+INFO:root:Calculo de U_LINHA: u_linha = 9.89758784807, alfa = -0.0246368287315, re = 144390.241403
+INFO:root:Resultado para teta = 100
+INFO:root:f_l = -9.05056762938
+INFO:root:f_d = 0.615786514017
+INFO:root:f_n = -9.06299053391
+INFO:root:f_teta = 0.83855436889
+INFO:root:f_t = 0.00298152664494
+INFO:root:f_r_mov = -0.0457766827631
+INFO:root:f_r_perp = 0.0295127126101
+INFO:root:Inicializacao da iteracao para teta = 101
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0119590488236 , u_linha = 9.88182279868
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000106906060569 , u_linha = 9.88287933838
+INFO:root:Calculo de U_LINHA: u_linha = 9.88182279868, alfa = -0.0270455342077, re = 144302.018337
+INFO:root:Resultado para teta = 101
+INFO:root:f_l = -9.90380249881
+INFO:root:f_d = 0.617033837125
+INFO:root:f_n = -9.91686657273
+INFO:root:f_teta = 0.884629159196
+INFO:root:f_t = 0.00314534812159
+INFO:root:f_r_mov = -0.0469223226882
+INFO:root:f_r_perp = -0.0205199216718
+INFO:root:Inicializacao da iteracao para teta = 102
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.013715060733 , u_linha = 9.86470497219
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000144895833448 , u_linha = 9.86613453398
+INFO:root:Calculo de U_LINHA: u_linha = 9.86470497219, alfa = -0.0294389138713, re = 144205.915883
+INFO:root:Resultado para teta = 102
+INFO:root:f_l = -10.7429181922
+INFO:root:f_d = 0.618073961984
+INFO:root:f_n = -10.7564561533
+INFO:root:f_teta = 0.934020318821
+INFO:root:f_t = 0.00332096113359
+INFO:root:f_r_mov = -0.000908409615463
+INFO:root:f_r_perp = -0.0589218202782
+INFO:root:Inicializacao da iteracao para teta = 103
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0156130730213 , u_linha = 9.84626947569
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000192185871054 , u_linha = 9.84816215331
+INFO:root:Calculo de U_LINHA: u_linha = 9.84626947569, alfa = -0.0318157335191, re = 144102.062797
+INFO:root:Resultado para teta = 103
+INFO:root:f_l = -11.5669180519
+INFO:root:f_d = 0.618908204587
+INFO:root:f_n = -11.5807519886
+INFO:root:f_teta = 0.986542888636
+INFO:root:f_t = 0.00350770804848
+INFO:root:f_r_mov = 0.0537412607648
+INFO:root:f_r_perp = -0.0443687841897
+INFO:root:Inicializacao da iteracao para teta = 104
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0176507664965 , u_linha = 9.82655379352
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000250079036998 , u_linha = 9.82901182334
+INFO:root:Calculo de U_LINHA: u_linha = 9.82655379352, alfa = -0.0341747965868, re = 143990.596587
+INFO:root:Resultado para teta = 104
+INFO:root:f_l = -12.3748713726
+INFO:root:f_d = 0.619538431034
+INFO:root:f_n = -12.3888141451
+INFO:root:f_teta = 1.04200307799
+INFO:root:f_t = 0.00370489983286
+INFO:root:f_r_mov = 0.0633080015062
+INFO:root:f_r_perp = 0.0166548933113
+INFO:root:Inicializacao da iteracao para teta = 105
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0198317599981 , u_linha = 9.80553890577
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000321678119054 , u_linha = 9.80869414805
+INFO:root:Calculo de U_LINHA: u_linha = 9.80553890577, alfa = -0.0365147576324, re = 143871.54449
+INFO:root:Resultado para teta = 105
+INFO:root:f_l = -13.1656904567
+INFO:root:f_d = 0.621013621581
+INFO:root:f_n = -13.1795854663
+INFO:root:f_teta = 1.10123483243
+INFO:root:f_t = 0.0039155016264
+INFO:root:f_r_mov = 0.0117052951275
+INFO:root:f_r_perp = 0.0695883345511
+INFO:root:Inicializacao da iteracao para teta = 106
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0221477698639 , u_linha = 9.7833212524
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000405227912363 , u_linha = 9.78728733441
+INFO:root:Calculo de U_LINHA: u_linha = 9.7833212524, alfa = -0.0388346513179, re = 143745.170991
+INFO:root:Resultado para teta = 106
+INFO:root:f_l = -13.9387658473
+INFO:root:f_d = 0.622744428339
+INFO:root:f_n = -13.9524344162
+INFO:root:f_teta = 1.16344595901
+INFO:root:f_t = 0.00413669674315
+INFO:root:f_r_mov = -0.0579119421248
+INFO:root:f_r_perp = 0.0608005447064
+INFO:root:Inicializacao da iteracao para teta = 107
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0245953784407 , u_linha = 9.75995032812
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0005034873117 , u_linha = 9.76486681466
+INFO:root:Calculo de U_LINHA: u_linha = 9.75995032812, alfa = -0.0411334249473, re = 143611.648279
+INFO:root:Resultado para teta = 107
+INFO:root:f_l = -14.6934023255
+INFO:root:f_d = 0.624251703753
+INFO:root:f_n = -14.7066441337
+INFO:root:f_teta = 1.22794321656
+INFO:root:f_t = 0.00436602032556
+INFO:root:f_r_mov = -0.0790360449178
+INFO:root:f_r_perp = -0.00839289910288
+INFO:root:Inicializacao da iteracao para teta = 108
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0271715934732 , u_linha = 9.73547172015
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000617811312041 , u_linha = 9.74149012294
+INFO:root:Calculo de U_LINHA: u_linha = 9.73547172015, alfa = -0.0434100542757, re = 143471.143541
+INFO:root:Resultado para teta = 108
+INFO:root:f_l = -15.4289585129
+INFO:root:f_d = 0.625537943239
+INFO:root:f_n = -15.4415694861
+INFO:root:f_teta = 1.29451023326
+INFO:root:f_t = 0.00460270305158
+INFO:root:f_r_mov = -0.0255482305944
+INFO:root:f_r_perp = -0.0768079518637
+INFO:root:Inicializacao da iteracao para teta = 109
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0298732651994 , u_linha = 9.70993260813
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000749534193075 , u_linha = 9.71721599378
+INFO:root:Calculo de U_LINHA: u_linha = 9.70993260813, alfa = -0.0456635619134, re = 143323.82981
+INFO:root:Resultado para teta = 109
+INFO:root:f_l = -16.1448680379
+INFO:root:f_d = 0.626606220216
+INFO:root:f_n = -16.1566417681
+INFO:root:f_teta = 1.36292904633
+INFO:root:f_t = 0.0048459699425
+INFO:root:f_r_mov = 0.0579754429251
+INFO:root:f_r_perp = -0.0776790596756
+INFO:root:Inicializacao da iteracao para teta = 110
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0326970901239 , u_linha = 9.68338159915
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.000899956772033 , u_linha = 9.69210407385
+INFO:root:Calculo de U_LINHA: u_linha = 9.68338159915, alfa = -0.0478930185425, re = 143169.885355
+INFO:root:Resultado para teta = 110
+INFO:root:f_l = -16.8406397943
+INFO:root:f_d = 0.627460161202
+INFO:root:f_n = -16.8513689252
+INFO:root:f_teta = 1.43298145661
+INFO:root:f_t = 0.00509504517905
+INFO:root:f_r_mov = 0.0931748297322
+INFO:root:f_r_perp = -0.00381127005331
+INFO:root:Inicializacao da iteracao para teta = 111
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0356396149761 , u_linha = 9.65586856218
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00107033412503 , u_linha = 9.66621464157
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 3.22656244474e-05 , u_linha = 9.66590276519
+INFO:root:Calculo de U_LINHA: u_linha = 9.66621464157, alfa = -0.0501441264422, re = 143029.842105
+INFO:root:Resultado para teta = 111
+INFO:root:f_l = -17.5697354506
+INFO:root:f_d = 0.629539670438
+INFO:root:f_n = -17.579205603
+INFO:root:f_teta = 1.50939824026
+INFO:root:f_t = 0.0053667492987
+INFO:root:f_r_mov = 0.0418298748651
+INFO:root:f_r_perp = 0.080219934214
+INFO:root:Inicializacao da iteracao para teta = 112
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0387058814259 , u_linha = 9.62736437602
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0012704437317 , u_linha = 9.63961095934
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 4.16049068338e-05 , u_linha = 9.63920992091
+INFO:root:Calculo de U_LINHA: u_linha = 9.63961095934, alfa = -0.0523337010107, re = 142866.646897
+INFO:root:Resultado para teta = 112
+INFO:root:f_l = -18.2361327805
+INFO:root:f_d = 0.63024084721
+INFO:root:f_n = -18.2441335536
+INFO:root:f_teta = 1.58330672933
+INFO:root:f_t = 0.0056295350376
+INFO:root:f_r_mov = -0.0540438737071
+INFO:root:f_r_perp = 0.0942174312202
+INFO:root:Inicializacao da iteracao para teta = 113
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0418869920197 , u_linha = 9.59796991094
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00148606964833 , u_linha = 9.61225439044
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 5.2980928761e-05 , u_linha = 9.61174515125
+INFO:root:Calculo de U_LINHA: u_linha = 9.61225439044, alfa = -0.0544980400738, re = 142697.544553
+INFO:root:Resultado para teta = 113
+INFO:root:f_l = -18.882681994
+INFO:root:f_d = 0.633453126864
+INFO:root:f_n = -18.8891526753
+INFO:root:f_teta = 1.66107251043
+INFO:root:f_t = 0.00590603559265
+INFO:root:f_r_mov = -0.105339831314
+INFO:root:f_r_perp = 0.0193827439315
+INFO:root:Inicializacao da iteracao para teta = 114
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0451752847958 , u_linha = 9.56777312425
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00172469696901 , u_linha = 9.58430314283
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 6.62081221946e-05 , u_linha = 9.58366862613
+INFO:root:Calculo de U_LINHA: u_linha = 9.58430314283, alfa = -0.0566370255885, re = 142522.926233
+INFO:root:Resultado para teta = 114
+INFO:root:f_l = -19.5098443189
+INFO:root:f_d = 0.636472837016
+INFO:root:f_n = -19.5145899643
+INFO:root:f_teta = 1.73984118262
+INFO:root:f_t = 0.00618610198265
+INFO:root:f_r_mov = -0.0595774973375
+INFO:root:f_r_perp = -0.0791150163329
+INFO:root:Inicializacao da iteracao para teta = 115
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0485667358505 , u_linha = 9.53682742176
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00198770132011 , u_linha = 9.55582154085
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 8.18537202206e-05 , u_linha = 9.55503942532
+INFO:root:Calculo de U_LINHA: u_linha = 9.55582154085, alfa = -0.0587501743383, re = 142342.998319
+INFO:root:Resultado para teta = 115
+INFO:root:f_l = -20.1176618515
+INFO:root:f_d = 0.639273834165
+INFO:root:f_n = -20.1204887944
+INFO:root:f_teta = 1.81940724289
+INFO:root:f_t = 0.00646900353028
+INFO:root:f_r_mov = 0.0459754690525
+INFO:root:f_r_perp = -0.108974454242
+INFO:root:Inicializacao da iteracao para teta = 116
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0520571943939 , u_linha = 9.50518665077
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00227594106862 , u_linha = 9.52686924374
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000100190807632 , u_linha = 9.52591483464
+INFO:root:Calculo de U_LINHA: u_linha = 9.52686924374, alfa = -0.0608370346965, re = 142157.957844
+INFO:root:Resultado para teta = 116
+INFO:root:f_l = -20.7062155208
+INFO:root:f_d = 0.641862988377
+INFO:root:f_n = -20.7069339446
+INFO:root:f_teta = 1.89960337834
+INFO:root:f_t = 0.0067541453452
+INFO:root:f_r_mov = 0.114268100527
+INFO:root:f_r_perp = -0.037478731374
+INFO:root:Inicializacao da iteracao para teta = 117
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0556423877397 , u_linha = 9.47290494976
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00259016951007 , u_linha = 9.49750509789
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000121498892461 , u_linha = 9.49635130173
+INFO:root:Calculo de U_LINHA: u_linha = 9.49750509789, alfa = -0.0628972040335, re = 141967.999783
+INFO:root:Resultado para teta = 117
+INFO:root:f_l = -21.2756429912
+INFO:root:f_d = 0.6442475465
+INFO:root:f_n = -21.2740676786
+INFO:root:f_teta = 1.98026994015
+INFO:root:f_t = 0.00704095978719
+INFO:root:f_r_mov = 0.0779928037127
+INFO:root:f_r_perp = 0.0735487375605
+INFO:root:Inicializacao da iteracao para teta = 118
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0593179264443 , u_linha = 9.44003660314
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00293102834867 , u_linha = 9.46778695511
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000146061216141 , u_linha = 9.46640428059
+INFO:root:Calculo de U_LINHA: u_linha = 9.46778695511, alfa = -0.064930326843, re = 141773.316472
+INFO:root:Resultado para teta = 118
+INFO:root:f_l = -21.8261344415
+INFO:root:f_d = 0.64643507517
+INFO:root:f_n = -21.8220854408
+INFO:root:f_teta = 2.06125534729
+INFO:root:f_t = 0.00732890790146
+INFO:root:f_r_mov = -0.0341736251854
+INFO:root:f_r_perp = 0.121211600895
+INFO:root:Inicializacao da iteracao para teta = 119
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0630835745086 , u_linha = 9.40659816386
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0033032512127 , u_linha = 9.43777350062
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00017438421847 , u_linha = 9.43612798881
+INFO:root:Calculo de U_LINHA: u_linha = 9.43777350062, alfa = -0.0669361051048, re = 141574.100812
+INFO:root:Resultado para teta = 119
+INFO:root:f_l = -22.357941836
+INFO:root:f_d = 0.648433716798
+INFO:root:f_n = -22.3512450248
+INFO:root:f_teta = 2.14241788226
+INFO:root:f_t = 0.00761748580358
+INFO:root:f_r_mov = -0.119712182094
+INFO:root:f_r_perp = 0.0571695424177
+INFO:root:Inicializacao da iteracao para teta = 120
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0669424164107 , u_linha = 9.37257704464
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00371480719292 , u_linha = 9.40752418314
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000207210036665 , u_linha = 9.40557525355
+INFO:root:Calculo de U_LINHA: u_linha = 9.40752418314, alfa = -0.0689142987592, re = 141370.545795
+INFO:root:Resultado para teta = 120
+INFO:root:f_l = -22.8713769357
+INFO:root:f_d = 0.650252161766
+INFO:root:f_n = -22.8618644872
+INFO:root:f_teta = 2.22362630774
+INFO:root:f_t = 0.00790622687195
+INFO:root:f_r_mov = -0.0962368484026
+INFO:root:f_r_perp = -0.0636856665995
+INFO:root:Inicializacao da iteracao para teta = 121
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0708772446371 , u_linha = 9.33813847486
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00414841426536 , u_linha = 9.37703831437
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000245591650157 , u_linha = 9.3747359575
+INFO:root:Calculo de U_LINHA: u_linha = 9.37703831437, alfa = -0.0708643220091, re = 141162.731803
+INFO:root:Resultado para teta = 121
+INFO:root:f_l = -23.3663727654
+INFO:root:f_d = 0.653780498702
+INFO:root:f_n = -23.3540181928
+INFO:root:f_teta = 2.30659626402
+INFO:root:f_t = 0.00820123116095
+INFO:root:f_r_mov = 0.0191130793355
+INFO:root:f_r_perp = -0.130214423492
+INFO:root:Inicializacao da iteracao para teta = 122
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0748832395141 , u_linha = 9.30333605771
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00460254160365 , u_linha = 9.3463530364
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00028643648859 , u_linha = 9.34367666647
+INFO:root:Calculo de U_LINHA: u_linha = 9.3463530364, alfa = -0.0727858509235, re = 140950.810062
+INFO:root:Resultado para teta = 122
+INFO:root:f_l = -23.8431488368
+INFO:root:f_d = 0.658664342466
+INFO:root:f_n = -23.8279179606
+INFO:root:f_teta = 2.39083233247
+INFO:root:f_t = 0.00850073718211
+INFO:root:f_r_mov = 0.121364414831
+INFO:root:f_r_perp = -0.0775310605718
+INFO:root:Inicializacao da iteracao para teta = 123
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0789554931858 , u_linha = 9.26822289071
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00508470403066 , u_linha = 9.31558990826
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000331934778997 , u_linha = 9.31249876604
+INFO:root:Calculo de U_LINHA: u_linha = 9.31558990826, alfa = -0.0746791929462, re = 140735.084301
+INFO:root:Resultado para teta = 123
+INFO:root:f_l = -24.3025934994
+INFO:root:f_d = 0.663297637843
+INFO:root:f_n = -24.2843459298
+INFO:root:f_teta = 2.47466049494
+INFO:root:f_t = 0.00879879287091
+INFO:root:f_r_mov = 0.113475772806
+INFO:root:f_r_perp = 0.0498390771562
+INFO:root:Inicializacao da iteracao para teta = 124
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0830890155422 , u_linha = 9.23285146142
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00559477687685 , u_linha = 9.28479783365
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000382328483271 , u_linha = 9.28124934766
+INFO:root:Calculo de U_LINHA: u_linha = 9.28479783365, alfa = -0.0765442329942, re = 140515.721318
+INFO:root:Resultado para teta = 124
+INFO:root:f_l = -24.7451256084
+INFO:root:f_d = 0.667689770557
+INFO:root:f_n = -24.7237278164
+INFO:root:f_teta = 2.55798233189
+INFO:root:f_t = 0.00909504829117
+INFO:root:f_r_mov = -0.00140653383469
+INFO:root:f_r_perp = 0.135443189789
+INFO:root:Inicializacao da iteracao para teta = 125
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0872787402502 , u_linha = 9.19727355075
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00613250595402 , u_linha = 9.25402390746
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000437842244053 , u_linha = 9.24997387814
+INFO:root:Calculo de U_LINHA: u_linha = 9.25402390746, alfa = -0.0783808869259, re = 140292.882607
+INFO:root:Resultado para teta = 125
+INFO:root:f_l = -25.1711867084
+INFO:root:f_d = 0.671850293896
+INFO:root:f_n = -25.1465122126
+INFO:root:f_teta = 2.6407079855
+INFO:root:f_t = 0.00938918394845
+INFO:root:f_r_mov = -0.119083641998
+INFO:root:f_r_perp = 0.0976188496276
+INFO:root:Inicializacao da iteracao para teta = 126
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0915195308825 , u_linha = 9.16154014387
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00669750889661 , u_linha = 9.2233133672
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000498680676578 , u_linha = 9.21871617159
+INFO:root:Calculo de U_LINHA: u_linha = 9.2233133672, alfa = -0.0801890991197, re = 140066.724178
+INFO:root:Resultado para teta = 126
+INFO:root:f_l = -25.5812372959
+INFO:root:f_d = 0.675788873111
+INFO:root:f_n = -25.5531667939
+INFO:root:f_teta = 2.72275590873
+INFO:root:f_t = 0.00968090989769
+INFO:root:f_r_mov = -0.129018331601
+INFO:root:f_r_perp = -0.0325670678682
+INFO:root:Inicializacao da iteracao para teta = 127
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.0958018336875 , u_linha = 9.1257376038
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00728502984491 , u_linha = 9.19270674681
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000564696150507 , u_linha = 9.18751859043
+INFO:root:Calculo de U_LINHA: u_linha = 9.19270674681, alfa = -0.0819688178413, re = 139837.391511
+INFO:root:Resultado para teta = 127
+INFO:root:f_l = -25.9757303408
+INFO:root:f_d = 0.679514715636
+INFO:root:f_n = -25.9441518562
+INFO:root:f_teta = 2.80404960268
+INFO:root:f_t = 0.00996995414285
+INFO:root:f_r_mov = -0.0183392048591
+INFO:root:f_r_perp = -0.13656953176
+INFO:root:Inicializacao da iteracao para teta = 128
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.100120146989 , u_linha = 9.08991624903
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00789422263887 , u_linha = 9.16224505134
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000635989421846 , u_linha = 9.15642166402
+INFO:root:Calculo de U_LINHA: u_linha = 9.16224505134, alfa = -0.0837200321345, re = 139605.028707
+INFO:root:Resultado para teta = 128
+INFO:root:f_l = -26.3551490045
+INFO:root:f_d = 0.683037463622
+INFO:root:f_n = -26.3199578838
+INFO:root:f_teta = 2.88452244438
+INFO:root:f_t = 0.0102560798022
+INFO:root:f_r_mov = 0.112871323945
+INFO:root:f_r_perp = -0.116535309572
+INFO:root:Inicializacao da iteracao para teta = 129
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.10447417088 , u_linha = 9.05408226254
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00852923134834 , u_linha = 9.13197095549
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00071305971549 , u_linha = 9.12546395475
+INFO:root:Calculo de U_LINHA: u_linha = 9.13197095549, alfa = -0.085442782081, re = 139369.780304
+INFO:root:Resultado para teta = 129
+INFO:root:f_l = -26.7200155922
+INFO:root:f_d = 0.686367402158
+INFO:root:f_n = -26.6811144023
+INFO:root:f_teta = 2.96411913932
+INFO:root:f_t = 0.0105390902731
+INFO:root:f_r_mov = 0.142241725035
+INFO:root:f_r_perp = 0.0125220669411
+INFO:root:Inicializacao da iteracao para teta = 130
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.108858558925 , u_linha = 9.01828273725
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00918919597613 , u_linha = 9.10192208303
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000796013063584 , u_linha = 9.09468259687
+INFO:root:Calculo de U_LINHA: u_linha = 9.10192208303, alfa = -0.0871371029283, re = 139131.77953
+INFO:root:Resultado para teta = 130
+INFO:root:f_l = -27.070833445
+INFO:root:f_d = 0.689514175993
+INFO:root:f_n = -27.0281319973
+INFO:root:f_teta = 3.04278816205
+INFO:root:f_t = 0.010818802354
+INFO:root:f_r_mov = 0.039428239924
+INFO:root:f_r_perp = 0.133452426005
+INFO:root:Inicializacao da iteracao para teta = 131
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.113267925801 , u_linha = 8.9825636473
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00987583468889 , u_linha = 9.07215878776
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000882346999136 , u_linha = 9.06416105245
+INFO:root:Calculo de U_LINHA: u_linha = 9.07215878776, alfa = -0.0888032623679, re = 138891.195143
+INFO:root:Resultado para teta = 131
+INFO:root:f_l = -27.4083246589
+INFO:root:f_d = 0.690767255104
+INFO:root:f_n = -27.3615861642
+INFO:root:f_teta = 3.11879622175
+INFO:root:f_t = 0.0110890532329
+INFO:root:f_r_mov = -0.102867252581
+INFO:root:f_r_perp = 0.133493245888
+INFO:root:Inicializacao da iteracao para teta = 132
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.117696853852 , u_linha = 8.94696980271
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0105880826206 , u_linha = 9.04271481428
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000977591383461 , u_linha = 9.03388336774
+INFO:root:Calculo de U_LINHA: u_linha = 9.04271481428, alfa = -0.0904413422229, re = 138648.147301
+INFO:root:Resultado para teta = 132
+INFO:root:f_l = -27.7330063557
+INFO:root:f_d = 0.691770377688
+INFO:root:f_n = -27.6821400776
+INFO:root:f_teta = 3.19373543273
+INFO:root:f_t = 0.0113555037608
+INFO:root:f_r_mov = -0.152630974068
+INFO:root:f_r_perp = 0.0095542511218
+INFO:root:Inicializacao da iteracao para teta = 133
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.122139899686 , u_linha = 8.91154481077
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0113216820389 , u_linha = 9.01359385442
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00107884634226 , u_linha = 9.00388005136
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000102536538284 , u_linha = 9.00480337272
+INFO:root:Calculo de U_LINHA: u_linha = 9.00388005136, alfa = -0.0919622912217, re = 138386.804144
+INFO:root:Resultado para teta = 133
+INFO:root:f_l = -27.9577017703
+INFO:root:f_d = 0.690885624683
+INFO:root:f_n = -27.9030109494
+INFO:root:f_teta = 3.25539816749
+INFO:root:f_t = 0.01157474904
+INFO:root:f_r_mov = -0.0609977525226
+INFO:root:f_r_perp = -0.125754193838
+INFO:root:Inicializacao da iteracao para teta = 134
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.126591600803 , u_linha = 8.8763310439
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0120753669355 , u_linha = 8.9848261161
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00118608664969 , u_linha = 8.97418195869
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000116171172419 , u_linha = 8.97522462106
+INFO:root:Calculo de U_LINHA: u_linha = 8.97418195869, alfa = -0.093533296422, re = 138137.770062
+INFO:root:Resultado para teta = 134
+INFO:root:f_l = -28.2480365045
+INFO:root:f_d = 0.691511481331
+INFO:root:f_n = -28.1891479866
+INFO:root:f_teta = 3.32677006739
+INFO:root:f_t = 0.0118285157952
+INFO:root:f_r_mov = 0.0890122710327
+INFO:root:f_r_perp = -0.147313987519
+INFO:root:Inicializacao da iteracao para teta = 135
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.130963030299 , u_linha = 8.84202200434
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0127676673126 , u_linha = 8.95637400801
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00129112815281 , u_linha = 8.94482509251
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000130164197243 , u_linha = 8.94598954005
+INFO:root:Calculo de U_LINHA: u_linha = 8.94482509251, alfa = -0.0950754959945, re = 137886.535297
+INFO:root:Resultado para teta = 135
+INFO:root:f_l = -28.5262437337
+INFO:root:f_d = 0.692042490839
+INFO:root:f_n = -28.4631086763
+INFO:root:f_teta = 3.39697965001
+INFO:root:f_t = 0.0120781498667
+INFO:root:f_r_mov = 0.159177460729
+INFO:root:f_r_perp = -0.0327718756764
+INFO:root:Inicializacao da iteracao para teta = 136
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.13488184631 , u_linha = 8.81148996481
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0130459662057 , u_linha = 8.92796387987
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00135655375245 , u_linha = 8.91586902429
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000140605425551 , u_linha = 8.91712282014
+INFO:root:Calculo de U_LINHA: u_linha = 8.91586902429, alfa = -0.096589297177, re = 137633.255342
+INFO:root:Resultado para teta = 136
+INFO:root:f_l = -28.7931148297
+INFO:root:f_d = 0.692492056615
+INFO:root:f_n = -28.7256900131
+INFO:root:f_teta = 3.46604862365
+INFO:root:f_t = 0.0123237284397
+INFO:root:f_r_mov = 0.0825343939864
+INFO:root:f_r_perp = 0.114347873833
+INFO:root:Inicializacao da iteracao para teta = 137
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.138782234821 , u_linha = 8.78131015239
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0133316524907 , u_linha = 8.89996134421
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00142386403728 , u_linha = 8.88730702735
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000151563818742 , u_linha = 8.88865422573
+INFO:root:Calculo de U_LINHA: u_linha = 8.88730702735, alfa = -0.0980744966254, re = 137377.977395
+INFO:root:Resultado para teta = 137
+INFO:root:f_l = -29.0488362752
+INFO:root:f_d = 0.692861312434
+INFO:root:f_n = -28.9770866942
+INFO:root:f_teta = 3.53391683841
+INFO:root:f_t = 0.0125650376477
+INFO:root:f_r_mov = -0.0722994831339
+INFO:root:f_r_perp = 0.158290198515
+INFO:root:Inicializacao da iteracao para teta = 138
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.142659783577 , u_linha = 8.75151129297
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0136242515822 , u_linha = 8.87239097982
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00149300325759 , u_linha = 8.85916421878
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000163037614221 , u_linha = 8.8606088313
+INFO:root:Calculo de U_LINHA: u_linha = 8.85916421878, alfa = -0.0995312106305, re = 137120.79765
+INFO:root:Resultado para teta = 138
+INFO:root:f_l = -29.2938918642
+INFO:root:f_d = 0.693157332947
+INFO:root:f_n = -29.217789134
+INFO:root:f_teta = 3.60057172991
+INFO:root:f_t = 0.0128020328174
+INFO:root:f_r_mov = -0.162605480923
+INFO:root:f_r_perp = 0.0564937528266
+INFO:root:Inicializacao da iteracao para teta = 139
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.14651009935 , u_linha = 8.72212116201
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0139232198016 , u_linha = 8.84527588232
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00156389978559 , u_linha = 8.83146435711
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000175021727457 , u_linha = 8.83301032583
+INFO:root:Calculo de U_LINHA: u_linha = 8.83146435711, alfa = -0.100959562754, re = 136861.807661
+INFO:root:Resultado para teta = 139
+INFO:root:f_l = -29.5287583197
+INFO:root:f_d = 0.693386979351
+INFO:root:f_n = -29.4482804315
+INFO:root:f_teta = 3.66600480306
+INFO:root:f_t = 0.0130346837442
+INFO:root:f_r_mov = -0.103283194965
+INFO:root:f_r_perp = -0.0992572392384
+INFO:root:Inicializacao da iteracao para teta = 140
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.150328813228 , u_linha = 8.6931665842
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0142279492422 , u_linha = 8.81863771398
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.0016364658957 , u_linha = 8.80422989203
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000187507534618 , u_linha = 8.80588106108
+INFO:root:Calculo de U_LINHA: u_linha = 8.80422989203, alfa = -0.102359682599, re = 136601.094459
+INFO:root:Resultado para teta = 140
+INFO:root:f_l = -29.7539043187
+INFO:root:f_d = 0.693556895714
+INFO:root:f_n = -29.6690353915
+INFO:root:f_teta = 3.73021130012
+INFO:root:f_t = 0.0132629735115
+INFO:root:f_r_mov = 0.0529191054585
+INFO:root:f_r_perp = -0.16567028654
+INFO:root:Inicializacao da iteracao para teta = 141
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.154111585875 , u_linha = 8.66467343573
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0145377727563 , u_linha = 8.79249675552
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00171059770938 , u_linha = 8.77748201489
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000200482686368 , u_linha = 8.77924210094
+INFO:root:Calculo de U_LINHA: u_linha = 8.77748201489, alfa = -0.103731704651, re = 136338.740679
+INFO:root:Resultado para teta = 141
+INFO:root:f_l = -29.9697896432
+INFO:root:f_d = 0.693673506628
+INFO:root:f_n = -29.8805196728
+INFO:root:f_teta = 3.7931898786
+INFO:root:f_t = 0.0134868973461
+INFO:root:f_r_mov = 0.162321812817
+INFO:root:f_r_perp = -0.079921938666
+INFO:root:Inicializacao da iteracao para teta = 142
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.157854112773 , u_linha = 8.63666664884
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0148519690273 , u_linha = 8.76687195965
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00165355452353 , u_linha = 8.75239939004
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000158324661193 , u_linha = 8.75378533014
+INFO:root:Calculo de U_LINHA: u_linha = 8.75239939004, alfa = -0.105088439149, re = 136076.491077
+INFO:root:Resultado para teta = 142
+INFO:root:f_l = -30.1653883253
+INFO:root:f_d = 0.6945441418
+INFO:root:f_n = -30.0718289114
+INFO:root:f_teta = 3.85491458621
+INFO:root:f_t = 0.0137063629732
+INFO:root:f_r_mov = 0.122569488682
+INFO:root:f_r_perp = 0.0808744822211
+INFO:root:Inicializacao da iteracao para teta = 143
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.161552129423 , u_linha = 8.60917021862
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0152637313196 , u_linha = 8.74261514726
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00149723040901 , u_linha = 8.72954500702
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000146333844998 , u_linha = 8.73082262186
+INFO:root:Calculo de U_LINHA: u_linha = 8.72954500702, alfa = -0.106436744173, re = 135815.105291
+INFO:root:Resultado para teta = 143
+INFO:root:f_l = -30.3092952371
+INFO:root:f_d = 0.697226648002
+INFO:root:f_n = -30.2118440744
+INFO:root:f_teta = 3.91321601325
+INFO:root:f_t = 0.013913656936
+INFO:root:f_r_mov = -0.0313555465703
+INFO:root:f_r_perp = 0.168815967656
+INFO:root:Inicializacao da iteracao para teta = 144
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.165200178214 , u_linha = 8.58221633241
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0158981136349 , u_linha = 8.72086158082
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00159075966499 , u_linha = 8.7070108192
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000158562486601 , u_linha = 8.70839164344
+INFO:root:Calculo de U_LINHA: u_linha = 8.7070108192, alfa = -0.10775592913, re = 135551.850816
+INFO:root:Resultado para teta = 144
+INFO:root:f_l = -30.446230289
+INFO:root:f_d = 0.699768691408
+INFO:root:f_n = -30.3448988749
+INFO:root:f_teta = 3.97012650603
+INFO:root:f_t = 0.0141160053548
+INFO:root:f_r_mov = -0.157690542414
+INFO:root:f_r_perp = 0.101992033332
+INFO:root:Inicializacao da iteracao para teta = 145
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.168689322511 , u_linha = 8.55659396161
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0164341945243 , u_linha = 8.69956429349
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.0016760172858 , u_linha = 8.68500806983
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000170240570788 , u_linha = 8.68648686232
+INFO:root:Calculo de U_LINHA: u_linha = 8.68500806983, alfa = -0.109048235007, re = 135287.072746
+INFO:root:Resultado para teta = 145
+INFO:root:f_l = -30.5783364241
+INFO:root:f_d = 0.702218114639
+INFO:root:f_n = -30.4731290777
+INFO:root:f_teta = 4.02595583787
+INFO:root:f_t = 0.0143145096458
+INFO:root:f_r_mov = -0.139172007268
+INFO:root:f_r_perp = -0.0594181321623
+INFO:root:Inicializacao da iteracao para teta = 146
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.172121299698 , u_linha = 8.53154021054
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.016969034746 , u_linha = 8.67881126037
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00176245575718 , u_linha = 8.66354215063
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000182284771416 , u_linha = 8.66512167035
+INFO:root:Calculo de U_LINHA: u_linha = 8.66354215063, alfa = -0.110313654341, re = 135020.81897
+INFO:root:Resultado para teta = 146
+INFO:root:f_l = -30.7058284515
+INFO:root:f_d = 0.704579432882
+INFO:root:f_n = -30.5967538422
+INFO:root:f_teta = 4.08070304367
+INFO:root:f_t = 0.0145091663775
+INFO:root:f_r_mov = 0.00831893649422
+INFO:root:f_r_perp = -0.167478380402
+INFO:root:Inicializacao da iteracao para teta = 147
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.175492252887 , u_linha = 8.50707435582
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.017501469536 , u_linha = 8.65861280404
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00184985013828 , u_linha = 8.64262524254
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000194663897531 , u_linha = 8.64430797722
+INFO:root:Calculo de U_LINHA: u_linha = 8.64262524254, alfa = -0.111552262814, re = 134753.145136
+INFO:root:Resultado para teta = 147
+INFO:root:f_l = -30.8289836758
+INFO:root:f_d = 0.706858566809
+INFO:root:f_n = -30.7160542347
+INFO:root:f_teta = 4.13437988835
+INFO:root:f_t = 0.0147000173808
+INFO:root:f_r_mov = 0.14933355901
+INFO:root:f_r_perp = -0.122147535931
+INFO:root:Inicializacao da iteracao para teta = 148
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.178798388528 , u_linha = 8.48321485448
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0180303307701 , u_linha = 8.63897849425
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00193796541551 , u_linha = 8.62226883544
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000207343461005 , u_linha = 8.62405697726
+INFO:root:Calculo de U_LINHA: u_linha = 8.62226883544, alfa = -0.11276413499, re = 134484.10412
+INFO:root:Resultado para teta = 148
+INFO:root:f_l = -30.9480709306
+INFO:root:f_d = 0.709061249749
+INFO:root:f_n = -30.8313027084
+INFO:root:f_teta = 4.18699907794
+INFO:root:f_t = 0.0148871078327
+INFO:root:f_r_mov = 0.153313696557
+INFO:root:f_r_perp = 0.0360621278254
+INFO:root:Inicializacao da iteracao para teta = 149
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.182035981026 , u_linha = 8.45997935809
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0185544507927 , u_linha = 8.61991718738
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00202655759552 , u_linha = 8.60248375858
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000220285830188 , u_linha = 8.60437918139
+INFO:root:Calculo de U_LINHA: u_linha = 8.60248375858, alfa = -0.113949343655, re = 134213.746121
+INFO:root:Resultado para teta = 149
+INFO:root:f_l = -31.0633504753
+INFO:root:f_d = 0.711193026188
+INFO:root:f_n = -30.9427630056
+INFO:root:f_teta = 4.23857409747
+INFO:root:f_t = 0.0150704856799
+INFO:root:f_r_mov = 0.0155113482263
+INFO:root:f_r_perp = 0.162277664088
+INFO:root:Inicializacao da iteracao para teta = 150
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.185201377282 , u_linha = 8.43738472776
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0190726661366 , u_linha = 8.6014370652
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00211537484699 , u_linha = 8.58328021014
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000233450412042 , u_linha = 8.58528444833
+INFO:root:Calculo de U_LINHA: u_linha = 8.58328021014, alfa = -0.115107959183, re = 133942.118759
+INFO:root:Resultado para teta = 150
+INFO:root:f_l = -31.1750739192
+INFO:root:f_d = 0.713259250817
+INFO:root:f_n = -31.0506900868
+INFO:root:f_teta = 4.28911905623
+INFO:root:f_t = 0.0152502010888
+INFO:root:f_r_mov = -0.137657834456
+INFO:root:f_r_perp = 0.139980980144
+INFO:root:Inicializacao da iteracao para teta = 151
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.188291001157 , u_linha = 8.41544704981
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0195838211227 , u_linha = 8.58354567286
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00220415868351 , u_linha = 8.56466778599
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000246793861071 , u_linha = 8.5667820152
+INFO:root:Calculo de U_LINHA: u_linha = 8.56466778599, alfa = -0.116240048927, re = 133669.267163
+INFO:root:Resultado para teta = 151
+INFO:root:f_l = -31.283484171
+INFO:root:f_d = 0.715265088062
+INFO:root:f_n = -31.1553300858
+INFO:root:f_teta = 4.33864854015
+INFO:root:f_t = 0.0154263059205
+INFO:root:f_r_mov = -0.164639213518
+INFO:root:f_r_perp = -0.0113831716247
+INFO:root:Inicializacao da iteracao para teta = 152
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.191301357851 , u_linha = 8.39418165193
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0200867713354 , u_linha = 8.566249956
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00229264517959 , u_linha = 8.54665550745
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000260270313179 , u_linha = 8.54888052726
+INFO:root:Calculo de U_LINHA: u_linha = 8.54665550745, alfa = -0.117345676639, re = 133395.234069
+INFO:root:Resultado para teta = 152
+INFO:root:f_l = -31.388815407
+INFO:root:f_d = 0.717215512025
+INFO:root:f_n = -31.2569202854
+INFO:root:f_teta = 4.38717747103
+INFO:root:f_t = 0.0155988532303
+INFO:root:f_r_mov = -0.0395998659958
+INFO:root:f_r_perp = -0.153319634472
+INFO:root:Inicializacao da iteracao para teta = 153
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.194229038192 , u_linha = 8.37360311983
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0205803869684 , u_linha = 8.54955629683
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00238056621233 , u_linha = 8.52925184806
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000273831642372 , u_linha = 8.53158806684
+INFO:root:Calculo de U_LINHA: u_linha = 8.52925184806, alfa = -0.118424901909, re = 133120.059913
+INFO:root:Resultado para teta = 153
+INFO:root:f_l = -31.4912930599
+INFO:root:f_d = 0.719115306775
+INFO:root:f_n = -31.3556891114
+INFO:root:f_teta = 4.43472097242
+INFO:root:f_t = 0.0157678967908
+INFO:root:f_r_mov = 0.122883141854
+INFO:root:f_r_perp = -0.155043363615
+INFO:root:Inicializacao da iteracao para teta = 154
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.197070722824 , u_linha = 8.35372531408
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0210635560352 , u_linha = 8.53347054917
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00246765072114 , u_linha = 8.51246475937
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000287427738073 , u_linha = 8.51491218132
+INFO:root:Calculo de U_LINHA: u_linha = 8.51246475937, alfa = -0.119477779622, re = 132843.782923
+INFO:root:Resultado para teta = 154
+INFO:root:f_l = -31.5911338204
+INFO:root:f_d = 0.720969066933
+INFO:root:f_n = -31.4518561422
+INFO:root:f_teta = 4.48129424182
+INFO:root:f_t = 0.0159334906376
+INFO:root:f_r_mov = 0.172855665343
+INFO:root:f_r_perp = -0.0140288084635
+INFO:root:Inicializacao da iteracao para teta = 155
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.19939351667 , u_linha = 8.3375471528
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.021143939776 , u_linha = 8.51764369819
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00250698852289 , u_linha = 8.49634346264
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.00029551284471 , u_linha = 8.49885498346
+INFO:root:Calculo de U_LINHA: u_linha = 8.49634346264, alfa = -0.120504912986, re = 132566.484893
+INFO:root:Resultado para teta = 155
+INFO:root:f_l = -31.6889743627
+INFO:root:f_d = 0.7227907568
+INFO:root:f_n = -31.5460571701
+INFO:root:f_teta = 4.52699082029
+INFO:root:f_t = 0.016095967361
+INFO:root:f_r_mov = 0.0634141359037
+INFO:root:f_r_perp = 0.140800970985
+INFO:root:Inicializacao da iteracao para teta = 156
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.200931957385 , u_linha = 8.32686642945
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0205823026539 , u_linha = 8.50185416499
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00246798627829 , u_linha = 8.48092336251
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000294233812426 , u_linha = 8.48341947136
+INFO:root:Calculo de U_LINHA: u_linha = 8.48092336251, alfa = -0.121506747569, re = 132288.226536
+INFO:root:Resultado para teta = 156
+INFO:root:f_l = -31.7853149533
+INFO:root:f_d = 0.724591289209
+INFO:root:f_n = -31.6387922978
+INFO:root:f_teta = 4.57188288305
+INFO:root:f_t = 0.0162555835842
+INFO:root:f_r_mov = -0.1052995831
+INFO:root:f_r_perp = 0.166971885854
+INFO:root:Inicializacao da iteracao para teta = 157
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.20238916421 , u_linha = 8.31677488259
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.020020825987 , u_linha = 8.48668533284
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.0023941480372 , u_linha = 8.46641548084
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000273503368263 , u_linha = 8.46873170749
+INFO:root:Calculo de U_LINHA: u_linha = 8.46641548084, alfa = -0.122486130255, re = 132009.245493
+INFO:root:Resultado para teta = 157
+INFO:root:f_l = -31.8789626218
+INFO:root:f_d = 0.726192728755
+INFO:root:f_n = -31.7288500608
+INFO:root:f_teta = 4.61572646152
+INFO:root:f_t = 0.0164114718632
+INFO:root:f_r_mov = -0.177752641326
+INFO:root:f_r_perp = 0.0395837943508
+INFO:root:Inicializacao da iteracao para teta = 158
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.203764267764 , u_linha = 8.3072743292
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0194602409898 , u_linha = 8.47214429896
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00229802201114 , u_linha = 8.45271976289
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.00026520561719 , u_linha = 8.45496206632
+INFO:root:Calculo de U_LINHA: u_linha = 8.45271976289, alfa = -0.12344176266, re = 131729.440729
+INFO:root:Resultado para teta = 158
+INFO:root:f_l = -31.9653810872
+INFO:root:f_d = 0.727336695197
+INFO:root:f_n = -31.8117039229
+INFO:root:f_teta = 4.65765172518
+INFO:root:f_t = 0.0165605394673
+INFO:root:f_r_mov = -0.0864233444446
+INFO:root:f_r_perp = -0.124978792122
+INFO:root:Inicializacao da iteracao para teta = 159
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.205056459708 , u_linha = 8.29836637067
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0189138930462 , u_linha = 8.45834663426
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00221530950569 , u_linha = 8.43965019695
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000258126065641 , u_linha = 8.44182925312
+INFO:root:Calculo de U_LINHA: u_linha = 8.43965019695, alfa = -0.124371081459, re = 131448.638216
+INFO:root:Resultado para teta = 159
+INFO:root:f_l = -32.0502946455
+INFO:root:f_d = 0.728474112434
+INFO:root:f_n = -31.8931020853
+INFO:root:f_teta = 4.69870869005
+INFO:root:f_t = 0.0167065197868
+INFO:root:f_r_mov = 0.0852097248994
+INFO:root:f_r_perp = -0.175408232831
+INFO:root:Inicializacao da iteracao para teta = 160
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.206264993598 , u_linha = 8.29005239568
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.018408028043 , u_linha = 8.44551772276
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.0021754051419 , u_linha = 8.42718518079
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.00025577606463 , u_linha = 8.42934120451
+INFO:root:Calculo de U_LINHA: u_linha = 8.42718518079, alfa = -0.125273710104, re = 131166.840997
+INFO:root:Resultado para teta = 160
+INFO:root:f_l = -32.1335751604
+INFO:root:f_d = 0.729601819461
+INFO:root:f_n = -31.9729216201
+INFO:root:f_teta = 4.73885572483
+INFO:root:f_t = 0.0168492647994
+INFO:root:f_r_mov = 0.179075245501
+INFO:root:f_r_perp = -0.0646612952326
+INFO:root:Inicializacao da iteracao para teta = 161
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.207389185661 , u_linha = 8.28233358287
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.017903977019 , u_linha = 8.43332361507
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00213364730176 , u_linha = 8.41536818744
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000253003770482 , u_linha = 8.41749784614
+INFO:root:Calculo de U_LINHA: u_linha = 8.41536818744, alfa = -0.126150176683, re = 130884.113749
+INFO:root:Resultado para teta = 161
+INFO:root:f_l = -32.2157645364
+INFO:root:f_d = 0.730731130942
+INFO:root:f_n = -32.0517031645
+INFO:root:f_teta = 4.77817836309
+INFO:root:f_t = 0.0169890786243
+INFO:root:f_r_mov = 0.108096463914
+INFO:root:f_r_perp = 0.106179883928
+INFO:root:Inicializacao da iteracao para teta = 162
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.208428415524 , u_linha = 8.2752109033
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0174023603806 , u_linha = 8.42176957244
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00209019298984 , u_linha = 8.4042031659
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000249828267138 , u_linha = 8.40630329808
+INFO:root:Calculo de U_LINHA: u_linha = 8.4042031659, alfa = -0.12700046272, re = 130600.480375
+INFO:root:Resultado para teta = 162
+INFO:root:f_l = -32.2969936883
+INFO:root:f_d = 0.73186449886
+INFO:root:f_n = -32.1295800526
+INFO:root:f_teta = 4.81668607236
+INFO:root:f_t = 0.0171259949239
+INFO:root:f_r_mov = -0.0630393083006
+INFO:root:f_r_perp = 0.18017643862
+INFO:root:Inicializacao da iteracao para teta = 163
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.209382126862 , u_linha = 8.26868512267
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0169037888251 , u_linha = 8.41086053295
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00204520115664 , u_linha = 8.39369374081
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000246270207889 , u_linha = 8.3957613667
+INFO:root:Calculo de U_LINHA: u_linha = 8.39369374081, alfa = -0.127824540847, re = 130315.963495
+INFO:root:Resultado para teta = 163
+INFO:root:f_l = -32.3773856334
+INFO:root:f_d = 0.733004223355
+INFO:root:f_n = -32.2066776907
+INFO:root:f_teta = 4.85438746691
+INFO:root:f_t = 0.0172600443268
+INFO:root:f_r_mov = -0.176849486239
+INFO:root:f_r_perp = 0.0887158136164
+INFO:root:Inicializacao da iteracao para teta = 164
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.21024982799 , u_linha = 8.26275680337
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0164088640983 , u_linha = 8.40060112559
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00199883226626 , u_linha = 8.38384322922
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000242351680448 , u_linha = 8.38587556026
+INFO:root:Calculo de U_LINHA: u_linha = 8.38384322922, alfa = -0.128622374475, re = 130030.584526
+INFO:root:Resultado para teta = 164
+INFO:root:f_l = -32.4570555576
+INFO:root:f_d = 0.73415245466
+INFO:root:f_n = -32.2831136309
+INFO:root:f_teta = 4.89129023875
+INFO:root:f_t = 0.0173912541822
+INFO:root:f_r_mov = -0.127991031165
+INFO:root:f_r_perp = -0.0848599078637
+INFO:root:Inicializacao da iteracao para teta = 165
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.211031092386 , u_linha = 8.25742630629
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0159181796904 , u_linha = 8.39099568336
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00195124787137 , u_linha = 8.37465465628
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000238096067592 , u_linha = 8.3766491035
+INFO:root:Calculo de U_LINHA: u_linha = 8.37465465628, alfa = -0.129393917471, re = 129744.363772
+INFO:root:Resultado para teta = 165
+INFO:root:f_l = -32.5361108781
+INFO:root:f_d = 0.735311194897
+INFO:root:f_n = -32.3589976403
+INFO:root:f_teta = 4.92740109146
+INFO:root:f_t = 0.0175196483252
+INFO:root:f_r_mov = 0.0392396898343
+INFO:root:f_r_perp = -0.181192158354
+INFO:root:Inicializacao da iteracao para teta = 166
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.211725559148 , u_linha = 8.25269379234
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0154323214678 , u_linha = 8.38204825558
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00190261019421 , u_linha = 8.36613076989
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000233527903965 , u_linha = 8.36808495123
+INFO:root:Calculo de U_LINHA: u_linha = 8.36613076989, alfa = -0.130139113844, re = 129457.320502
+INFO:root:Resultado para teta = 166
+INFO:root:f_l = -32.6146512997
+INFO:root:f_d = 0.73648229974
+INFO:root:f_n = -32.434431764
+INFO:root:f_teta = 4.96272567681
+INFO:root:f_t = 0.0176452468509
+INFO:root:f_r_mov = 0.171074852996
+INFO:root:f_r_perp = -0.111221957679
+INFO:root:Inicializacao da iteracao para teta = 167
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.212332933374 , u_linha = 8.24855922388
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0149518682386 , u_linha = 8.37376261923
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00185308171279 , u_linha = 8.35827405443
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000228672729609 , u_linha = 8.36018580093
+INFO:root:Calculo de U_LINHA: u_linha = 8.35827405443, alfa = -0.130857897447, re = 129169.473037
+INFO:root:Resultado para teta = 167
+INFO:root:f_l = -32.6927688652
+INFO:root:f_d = 0.737667479896
+INFO:root:f_n = -32.5095103826
+INFO:root:f_teta = 4.99726853378
+INFO:root:f_t = 0.0177680658979
+INFO:root:f_r_mov = 0.145676630256
+INFO:root:f_r_perp = 0.061465908971
+INFO:root:Inicializacao da iteracao para teta = 168
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.212852986485 , u_linha = 8.2450223658
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0144773922476 , u_linha = 8.36614228932
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00180282475101 , u_linha = 8.35108674344
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000223556940772 , u_linha = 8.35295410431
+INFO:root:Calculo de U_LINHA: u_linha = 8.35108674344, alfa = -0.131550191682, re = 128880.838826
+INFO:root:Resultado para teta = 168
+INFO:root:f_l = -32.7705479983
+INFO:root:f_d = 0.738868302418
+INFO:root:f_n = -32.5843202606
+INFO:root:f_teta = 5.03103302975
+INFO:root:f_t = 0.0178881174391
+INFO:root:f_r_mov = -0.0142697405736
+INFO:root:f_r_perp = 0.178412231343
+INFO:root:Inicializacao da iteracao para teta = 169
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.211436553028 , u_linha = 8.25466259459
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0123185923126 , u_linha = 8.35761666701
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00153986627803 , u_linha = 8.34476684195
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000191797286983 , u_linha = 8.34636765263
+INFO:root:Calculo de U_LINHA: u_linha = 8.34476684195, alfa = -0.132218899487, re = 128591.563753
+INFO:root:Resultado para teta = 169
+INFO:root:f_l = -32.8501865661
+INFO:root:f_d = 0.740131608919
+INFO:root:f_n = -32.661038334
+INFO:root:f_teta = 5.0644430236
+INFO:root:f_t = 0.0180069085284
+INFO:root:f_r_mov = -0.161825047644
+INFO:root:f_r_perp = 0.131699328859
+INFO:root:Inicializacao da iteracao para teta = 170
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.201825282922 , u_linha = 8.32067700863
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00264704700552 , u_linha = 8.34276068833
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000331342772749 , u_linha = 8.3399972905
+INFO:root:Calculo de U_LINHA: u_linha = 8.34276068833, alfa = -0.132916949456, re = 128303.801514
+INFO:root:Resultado para teta = 170
+INFO:root:f_l = -32.9692184245
+INFO:root:f_d = 0.742260271919
+INFO:root:f_n = -32.776783467
+INFO:root:f_teta = 5.10498929499
+INFO:root:f_t = 0.0181510730489
+INFO:root:f_r_mov = -0.1609711618
+INFO:root:f_r_perp = -0.0365200054081
+INFO:root:Inicializacao da iteracao para teta = 171
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.192566415681 , u_linha = 8.38527722105
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.00678093176317 , u_linha = 8.32880019526
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.000849593444817 , u_linha = 8.33588230622
+INFO:root:Calculo de U_LINHA: u_linha = 8.32880019526, alfa = -0.133393479815, re = 128007.557171
+INFO:root:Resultado para teta = 171
+INFO:root:f_l = -32.9507033019
+INFO:root:f_d = 0.741468591659
+INFO:root:f_n = -32.7565923112
+INFO:root:f_teta = 5.11726696999
+INFO:root:f_t = 0.0181947270044
+INFO:root:f_r_mov = -0.0113813300061
+INFO:root:f_r_perp = -0.171605765717
+INFO:root:Inicializacao da iteracao para teta = 172
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.183675621091 , u_linha = 8.44826050467
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0159317521198 , u_linha = 8.31577562867
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00199714447418 , u_linha = 8.33241666857
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000251530679915 , u_linha = 8.33032133718
+INFO:root:Calculo de U_LINHA: u_linha = 8.33241666857, alfa = -0.134104802252, re = 127720.630777
+INFO:root:Resultado para teta = 172
+INFO:root:f_l = -33.1163726884
+INFO:root:f_d = 0.74463809525
+INFO:root:f_n = -32.9185951563
+INFO:root:f_teta = 5.16571745359
+INFO:root:f_t = 0.0183669953906
+INFO:root:f_r_mov = 0.149369338002
+INFO:root:f_r_perp = -0.149848558273
+INFO:root:Inicializacao da iteracao para teta = 173
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.175167623712 , u_linha = 8.50942435634
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0247717717287 , u_linha = 8.30372634288
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00310564181873 , u_linha = 8.3295950817
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000392208032012 , u_linha = 8.32632942842
+INFO:root:Calculo de U_LINHA: u_linha = 8.3295950817, alfa = -0.134679077645, re = 127428.708899
+INFO:root:Resultado para teta = 173
+INFO:root:f_l = -33.2045168911
+INFO:root:f_d = 0.746171376262
+INFO:root:f_n = -33.0040226472
+INFO:root:f_teta = 5.19786131095
+INFO:root:f_t = 0.0184812846612
+INFO:root:f_r_mov = 0.173147540924
+INFO:root:f_r_perp = 0.0104252563256
+INFO:root:Inicializacao da iteracao para teta = 174
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.167056183863 , u_linha = 8.56856776758
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0332675402671 , u_linha = 8.2926903572
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00416958845325 , u_linha = 8.32741223911
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000527752919167 , u_linha = 8.32301974115
+INFO:root:Calculo de U_LINHA: u_linha = 8.32741223911, alfa = -0.135225739985, re = 127136.003706
+INFO:root:Resultado para teta = 174
+INFO:root:f_l = -33.2923130924
+INFO:root:f_d = 0.747718865511
+INFO:root:f_n = -33.0891879871
+INFO:root:f_teta = 5.22916256792
+INFO:root:f_t = 0.0185925780193
+INFO:root:f_r_mov = 0.0372764068056
+INFO:root:f_r_perp = 0.161958542178
+INFO:root:Inicializacao da iteracao para teta = 175
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.159354079946 , u_linha = 8.62549256778
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0407763260655 , u_linha = 8.28755646315
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00452732208594 , u_linha = 8.32524754021
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000573937450014 , u_linha = 8.32047210967
+INFO:root:Calculo de U_LINHA: u_linha = 8.32524754021, alfa = -0.135734721376, re = 126842.247849
+INFO:root:Resultado para teta = 175
+INFO:root:f_l = -33.3729016978
+INFO:root:f_d = 0.74913413984
+INFO:root:f_n = -33.1673152343
+INFO:root:f_teta = 5.25820842798
+INFO:root:f_t = 0.0186958521884
+INFO:root:f_r_mov = -0.13368137464
+INFO:root:f_r_perp = 0.16510243571
+INFO:root:Inicializacao da iteracao para teta = 176
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.152073092147 , u_linha = 8.68000482622
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0475042037806 , u_linha = 8.28636753427
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00444281084595 , u_linha = 8.32334658877
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000563780980908 , u_linha = 8.31865668835
+INFO:root:Calculo de U_LINHA: u_linha = 8.32334658877, alfa = -0.136209572408, re = 126547.625934
+INFO:root:Resultado para teta = 176
+INFO:root:f_l = -33.4489517547
+INFO:root:f_d = 0.750474296185
+INFO:root:f_n = -33.2410471848
+INFO:root:f_teta = 5.2855155836
+INFO:root:f_t = 0.0187929442972
+INFO:root:f_r_mov = -0.182132113476
+INFO:root:f_r_perp = 0.0162243957915
+INFO:root:Inicializacao da iteracao para teta = 177
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.145223987528 , u_linha = 8.73191629664
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0538326040537 , u_linha = 8.28586652477
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00435657805992 , u_linha = 8.32212250107
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.00055312345001 , u_linha = 8.31752188467
+INFO:root:Calculo de U_LINHA: u_linha = 8.32212250107, alfa = -0.13665663662, re = 126252.354545
+INFO:root:Resultado para teta = 177
+INFO:root:f_l = -33.5250355723
+INFO:root:f_d = 0.75183689375
+INFO:root:f_n = -33.3149058208
+INFO:root:f_teta = 5.31199974147
+INFO:root:f_t = 0.0188871101919
+INFO:root:f_r_mov = -0.0628323293343
+INFO:root:f_r_perp = -0.148278794747
+INFO:root:Inicializacao da iteracao para teta = 178
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.138816506534 , u_linha = 8.78104588634
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0597373422056 , u_linha = 8.28605875874
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.0042679890866 , u_linha = 8.32157515066
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000541899183626 , u_linha = 8.31706813823
+INFO:root:Calculo de U_LINHA: u_linha = 8.32157515066, alfa = -0.137075713099, re = 125956.447068
+INFO:root:Resultado para teta = 178
+INFO:root:f_l = -33.6011577771
+INFO:root:f_d = 0.753222004098
+INFO:root:f_n = -33.3888984768
+INFO:root:f_teta = 5.33764889806
+INFO:root:f_t = 0.0189783071931
+INFO:root:f_r_mov = 0.11495622942
+INFO:root:f_r_perp = -0.177001942178
+INFO:root:Inicializacao da iteracao para teta = 179
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.132859350935 , u_linha = 8.8272211301
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.0651956144672 , u_linha = 8.28694843483
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.004176538682 , u_linha = 8.32170435497
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000530059831327 , u_linha = 8.31729569062
+INFO:root:Calculo de U_LINHA: u_linha = 8.32170435497, alfa = -0.137466589579, re = 125659.916963
+INFO:root:Resultado para teta = 179
+INFO:root:f_l = -33.6773164451
+INFO:root:f_d = 0.75462958159
+INFO:root:f_n = -33.4630259739
+INFO:root:f_teta = 5.36244959213
+INFO:root:f_t = 0.0190664874387
+INFO:root:f_r_mov = 0.187547113198
+INFO:root:f_r_perp = -0.0428644445553
+INFO:root:Inicializacao da iteracao para teta = 180
+INFO:root:Inicializacao da iteracao para u_linha para teta = 62
+INFO:root:Calculo de U_LINHA: Count = 0 , erro = 0.127360173217 , u_linha = 8.8702796476
+INFO:root:Calculo de U_LINHA: Count = 1 , erro = 0.070186207502 , u_linha = 8.28853856031
+INFO:root:Calculo de U_LINHA: Count = 2 , erro = 0.00408186071396 , u_linha = 8.32250988646
+INFO:root:Calculo de U_LINHA: Count = 3 , erro = 0.000517575894866 , u_linha = 8.31820458428
+INFO:root:Calculo de U_LINHA: u_linha = 8.32250988646, alfa = -0.137829042434, re = 125362.777823
+INFO:root:Resultado para teta = 180
+INFO:root:f_l = -33.7535031403
+INFO:root:f_d = 0.756059464455
+INFO:root:f_n = -33.5372826581
+INFO:root:f_teta = 5.38638689316
+INFO:root:f_t = 0.0191515978424
+INFO:root:f_r_mov = 0.0875300357724
+INFO:root:f_r_perp = 0.131360805138
+INFO:root:Fim da iteracao para teta.
+INFO:root:Resultados:
+INFO:root:t_total = 2.07551156611
+INFO:root:p = 194.579209323
+INFO:root:c_p = 0.327023881215
+INFO:root:f_r_mov_total = 0.31818018737
+INFO:root:f_r_perp_total = 0.128981983753
+INFO:root:f_r = 0.343329264362
+INFO:root:c_d_rotor = 0.00534756617428
+INFO:root:re_rotor = 8278260.86957
+INFO:root:u_2 = 6.64501977292
+INFO:root:p_3 = 101343.287818
+INFO:root:p_4 = 101310.06081
+INFO:root:beta = 2.2343227925
+INFO:root:gama = -0.619714867761
+INFO:root:f_r_x = 0.34116601158
+INFO:root:f_r_y = 0.265180077116
+INFO:root:Finished
