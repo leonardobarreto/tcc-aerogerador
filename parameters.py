@@ -69,18 +69,33 @@ ws_range = str.split(ws.dimensions,':')
 #Define o Numero de valores de alfa e o numero pares (cd,cl)
 alfa_range = int(ws_range[1][1:])
 naca_range = ((ord(ws_range[1][:1].lower()) - 96)-1)/2
+
+dictNACA = {}
+for naca in range(1, naca_range + 1):
+    num_naca = str(ws[chr(97+2*naca).upper()+str(1)].value)
+    re = str(ws[chr(97+2*naca).upper()+str(2)].value)
+    if num_naca not in dictNACA:
+        dictNACA[num_naca]={}
+        if re not in dictNACA[num_naca]:
+            dictNACA[num_naca][re]={}
+    else:
+        if re not in dictNACA[num_naca]:
+            dictNACA[num_naca][re]={}
+
+# dictNACA[num_naca][re]={'alfa':[], 'cd': [], 'cl':[]}
+# dictNACA[num_naca][re][alfa]
+
+#Estrutura excel
 #Linha 1: Valores Naca
 #Linha 2: Valores Reynolds
 #Linha 3: Titulos
 #Coluna 1: Valores Alfa
-dictNACA = {}
 for naca in range(1,naca_range+1):
     num_naca = str(ws[chr(97+2*naca).upper()+str(1)].value)
     re = str(ws[chr(97+2*naca).upper()+str(2)].value)
-    naca_name = num_naca+"_"+re
-    dictNACA[naca_name]={'alfa':[],'cd':[],'cl':[]}
+    dictNACA[num_naca][re]={'alfa':[],'cd':[],'cl':[]}
     for i in range(4,alfa_range+1):
-        dictNACA[naca_name]['alfa'].append(float(ws['A'+str(i)].value))
-        dictNACA[naca_name]['cl'].append(float(ws[chr(96+2*naca).upper() + str(i)].value))
-        dictNACA[naca_name]['cd'].append(float(ws[chr(96+2*naca+1).upper() + str(i)].value))
+        dictNACA[num_naca][re]['alfa'].append(float(ws['A'+str(i)].value))
+        dictNACA[num_naca][re]['cl'].append(float(ws[chr(96+2*naca).upper() + str(i)].value))
+        dictNACA[num_naca][re]['cd'].append(float(ws[chr(96+2*naca+1).upper() + str(i)].value))
 logging.info('Fim da importacao dos dados NACA')

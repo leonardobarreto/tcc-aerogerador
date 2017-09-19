@@ -23,7 +23,7 @@ class TsrObj:
         self.t = np.zeros(n)
         self.f_r_mov = np.zeros(n)
         self.f_r_perp = np.zeros(n)
-        self.naca = dictNACA[num_naca]
+        #self.naca = dictNACA[num_naca]
 
     def calcular_tsr(self):
 
@@ -194,7 +194,16 @@ class TsrObj:
     def interpolar_cd(self,alfa):
         #Utilizando o valor absoluto de alfa pois o perfil e simetrico
         alfa_deg = degrees(abs(alfa))
+#O programa estava importando o dictNACA[num_naca] para dentro da classe, o que nao faz muito sentido
+#Vamos deixar esses dados no parametro e utiliza-los aqui
+#Por enquanto estava sendo salvo com a chave '0012_160000'
+#Verificar se e melhor utilizar so o '0012' e dentro usar outro dicionario para cada re
+#Ficaria do tipo dictNACA['0012']['16000']['alfa','cd','cl']
 
+#Seria bom cadastrar uma lista numerica de Re nos parametros tambem
+
+#Outro ponto que facilitaria seria se pudessemos interpolar de grau em grau ja na hora da importacao
+#Dai neste ponto do programa ja teriamos todos os dados de 0 a 180
         if (alfa_deg >= self.naca['alfa'][0] and alfa_deg < self.naca['alfa'][len(self.naca['alfa'])-1]) :
             #find index of closest smaller then...
             for i in range(1,len(self.naca['alfa'])):
