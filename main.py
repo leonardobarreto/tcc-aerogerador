@@ -22,7 +22,7 @@ def main():
     
 
     logging.info('Iniciando TSRmodule para tsr = ' + '6')
-    t = tsrmodule.TsrObj(6,'0012_160000')
+    t = tsrmodule.TsrObj(12,'0012')
     t.calcular_tsr()
     #t.plotar(t.teta,t.f_l)
 

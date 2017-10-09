@@ -10,7 +10,7 @@ logging.info('#############################')
 #Velocidade do vento [m/s]
 u_inf = 10
 #TSR
-tsr = 6
+tsr = 12
 #Raio do aerogerador [m]
 r = 0.64
 #Velocidade de rotacao 
@@ -49,7 +49,7 @@ logging.info('####################')
 logging.info('##### Inputs  ######')
 logging.info('####################')
 
-n = 180
+n = 360
 dteta = 2*pi/n
 
 logging.info('n = ' + str(180))
@@ -70,6 +70,7 @@ ws_range = str.split(ws.dimensions,':')
 alfa_range = int(ws_range[1][1:])
 naca_range = ((ord(ws_range[1][:1].lower()) - 96)-1)/2
 
+listaRe = []
 dictNACA = {}
 for naca in range(1, naca_range + 1):
     num_naca = str(ws[chr(97+2*naca).upper()+str(1)].value)
@@ -81,6 +82,10 @@ for naca in range(1, naca_range + 1):
     else:
         if re not in dictNACA[num_naca]:
             dictNACA[num_naca][re]={}
+    if not listaRe.__contains__(re):
+        listaRe.append(int(re))
+
+listaRe.sort
 
 # dictNACA[num_naca][re]={'alfa':[], 'cd': [], 'cl':[]}
 # dictNACA[num_naca][re][alfa]

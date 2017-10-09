@@ -12,7 +12,7 @@ import logging
 class TsrObj:
     def  __init__(self, tsr, num_naca):
         self.tsr = tsr
-        self.teta = np.arange(0,180+180/float(n),180/float(n))
+        self.teta = np.arange(0,360+360/float(n),360/float(n))
         self.u_linha = np.zeros(n)
         self.alfa = np.zeros(n)
         self.re = np.zeros(n)
@@ -23,7 +23,8 @@ class TsrObj:
         self.t = np.zeros(n)
         self.f_r_mov = np.zeros(n)
         self.f_r_perp = np.zeros(n)
-        #self.naca = dictNACA[num_naca]
+        self.naca = num_naca
+        self.listaRe = listaRe
 
     def calcular_tsr(self):
 
@@ -43,6 +44,8 @@ class TsrObj:
 
         logging.info('Inicializacao da iteracao para teta.')
         for i in range(ar_teta.size):
+            if i == 181:
+                print '180'
             logging.info('Inicializacao da iteracao para teta = ' + str(i))
             resultado = self.definir_u_linha(ar_teta[i])
             u_linha = resultado[0]
@@ -53,10 +56,10 @@ class TsrObj:
             ar_alfa[i] = degrees(alfa)
             ar_re[i] = re
             if alfa >= 0 :
-                ar_f_l[i] = self.interpolar_cl(alfa)*0.5*ro*a*(u_linha**2)
+                ar_f_l[i]=self.interpolar('cl',alfa,re)*0.5*ro*a*(u_linha**2)
             else:
-                ar_f_l[i] = -self.interpolar_cl(alfa)*0.5*ro*a*(u_linha**2)
-            ar_f_d[i] = self.interpolar_cd(alfa)*0.5*ro*a*(u_linha**2)
+                ar_f_l[i] = -self.interpolar('cl',alfa,re)*0.5*ro*a*(u_linha**2)
+            ar_f_d[i] = self.interpolar('cd',alfa,re)*0.5*ro*a*(u_linha**2)
             ar_f_n[i] = ar_f_d[i]*sin(alfa) + ar_f_l[i]*cos(alfa)
             ar_f_teta[i] = ar_f_d[i]*cos(alfa) + ar_f_l[i]*sin(alfa)
             ar_t[i] = ar_f_teta[i]*r/n
@@ -158,14 +161,14 @@ class TsrObj:
         erro = 10
         count = 0
         u_linha_n_conv = 0
-        while (erro > 0.001 or count < 100):
+        while (erro > 0.00001 or count < 100):
             v_teta = omega*r + u_linha*sin(teta)
             v_r = u_linha*cos(teta)
             v_res = sqrt((v_teta)**2+(v_r)**2)
             alfa = atan(v_r/v_teta)
             re = ro*v_res*c/mu
-            cd = self.interpolar_cd(alfa)
-            cl = self.interpolar_cl(alfa)
+            cd = self.interpolar('cd', alfa, re)
+            cl = self.interpolar('cl', alfa, re)
             if alfa >= 0:
                 cx_linha = (cd*cos(alfa)-cl*sin(alfa))*sin(teta)+(cd*sin(alfa)+cl*cos(alfa))*cos(teta)
             else:
@@ -177,7 +180,7 @@ class TsrObj:
 
             logging.info('Calculo de U_LINHA: Count = ' + str(count) + ' , erro = ' + str(erro) + ' , u_linha = ' + str(u_linha_2))
             
-            if erro > 0.001:
+            if erro > 0.00001:
                 u_linha = u_linha_2
             else:
                 break
@@ -191,57 +194,44 @@ class TsrObj:
         logging.info('Calculo de U_LINHA: u_linha = ' + str(u_linha) + ', alfa = ' + str(alfa) + ', re = ' + str(re))
         return (u_linha, alfa, re)
 
-    def interpolar_cd(self,alfa):
+    def interpolar(self, c, alfa, re):
+
+        for i in range(0,len(self.listaRe)):
+                diferenca = re - self.listaRe[i]
+                if diferenca > 0:
+                    if i == len(self.listaRe) - 1:
+                        re1 = self.listaRe[i]
+                        re2 = re1
+                        return self.interpolar_em_alfa(alfa,re1,c)
+                    continue
+                else:
+                    re2 = self.listaRe[i]
+                    re1 = self.listaRe[i-1]
+
+        c_alfa_re2 = self.interpolar_em_alfa(alfa, re2, c)
+        c_alfa_re1 = self.interpolar_em_alfa(alfa, re1, c)
+
+        return c_alfa_re2*(re1-re)/(re1-re2)+c_alfa_re1*(re-re2)/(re1-re2)
+
+    def interpolar_em_alfa(self, alfa, re, c):
         #Utilizando o valor absoluto de alfa pois o perfil e simetrico
+        # dictNACA[num_naca][re]={'alfa':[], 'cd': [], 'cl':[]}
+        # dictNACA[num_naca][re][alfa]
         alfa_deg = degrees(abs(alfa))
-#O programa estava importando o dictNACA[num_naca] para dentro da classe, o que nao faz muito sentido
-#Vamos deixar esses dados no parametro e utiliza-los aqui
-#Por enquanto estava sendo salvo com a chave '0012_160000'
-#Verificar se e melhor utilizar so o '0012' e dentro usar outro dicionario para cada re
-#Ficaria do tipo dictNACA['0012']['16000']['alfa','cd','cl']
-
-#Seria bom cadastrar uma lista numerica de Re nos parametros tambem
-
-#Outro ponto que facilitaria seria se pudessemos interpolar de grau em grau ja na hora da importacao
-#Dai neste ponto do programa ja teriamos todos os dados de 0 a 180
-        if (alfa_deg >= self.naca['alfa'][0] and alfa_deg < self.naca['alfa'][len(self.naca['alfa'])-1]) :
+        if (alfa_deg >= dictNACA[self.naca][str(re)]['alfa'][0] and alfa_deg < dictNACA[self.naca][str(re)]['alfa'][len(dictNACA[self.naca][str(re)]['alfa'])-1]) :
             #find index of closest smaller then...
-            for i in range(1,len(self.naca['alfa'])):
-                diferenca = alfa_deg - self.naca['alfa'][i]
+            for i in range(1,len(dictNACA[self.naca][str(re)]['alfa'])):
+                diferenca = alfa_deg - dictNACA[self.naca][str(re)]['alfa'][i]
                 if diferenca > 0:
                     continue
                 else:
                     #Interpolacao de cd com o valor anterior
-                    return self.naca['cd'][i-1]+(self.naca['cd'][i]-self.naca['cd'][i-1])*(alfa_deg-self.naca['alfa'][i-1])/(self.naca['alfa'][i]-self.naca['alfa'][i-1])
+                    c1 = dictNACA[self.naca][str(re)][c][i-1]
+                    c2 = dictNACA[self.naca][str(re)][c][i]
+                    alfa1 = dictNACA[self.naca][str(re)]['alfa'][i-1]
+                    alfa2 = dictNACA[self.naca][str(re)]['alfa'][i]
 
-
+                    return c1 + (c2-c1)*(alfa_deg-alfa1)/(alfa2-alfa1)
         else:
-            if (alfa_deg == self.naca['alfa'][len(self.naca['alfa'])-1]) :
-                return self.naca['cd'][len(self.naca['alfa'])-1]
-        
-        #Exception alfa out of range...
-
-    def interpolar_cl(self,alfa):
-        #Utilizando o valor absoluto de alfa pois o perfil e simetrico
-        alfa_deg = degrees(abs(alfa))
-
-        if (alfa_deg >= self.naca['alfa'][0] and alfa_deg < self.naca['alfa'][len(self.naca['alfa'])-1]) :
-            #find index of closest smaller then...
-            for i in range(1,len(self.naca['alfa'])):
-                diferenca = alfa_deg - self.naca['alfa'][i]
-                if diferenca > 0:
-                    continue
-                else:
-                    #Interpolacao de cl com o valor anterior
-                    return self.naca['cl'][i-1]+(self.naca['cl'][i]-self.naca['cl'][i-1])*(alfa_deg-self.naca['alfa'][i-1])/(self.naca['alfa'][i]-self.naca['alfa'][i-1])
-
-
-        else:
-            if (alfa_deg == self.naca['alfa'][len(self.naca['alfa'])-1]) :
-                return self.naca['cl'][len(self.naca['alfa'])-1]
-        
-        #Exception alfa out of range...
-    def plotar_por_teta(self,y):
-        plt.plot(self.teta, y)
-        plt.grid(True)
-        plt.show()
+            if (alfa_deg == dictNACA[self.naca][str(re)]['alfa'][len(dictNACA[self.naca][str(re)]['alfa'])-1]) :
+                return dictNACA[self.naca][str(re)][c][len(dictNACA[self.naca][str(re)]['alfa'])-1]
