@@ -10,7 +10,7 @@ logging.info('#############################')
 #Velocidade do vento [m/s]
 u_inf = 10
 #TSR
-tsr = 12
+tsr = 18
 #Raio do aerogerador [m]
 r = 0.64
 #Velocidade de rotacao 

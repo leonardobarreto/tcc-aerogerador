@@ -16,6 +16,7 @@ class TsrObj:
         self.u_linha = np.zeros(n)
         self.alfa = np.zeros(n)
         self.re = np.zeros(n)
+        self.v_res = np.zeros(n)
         self.f_l = np.zeros(n)
         self.f_d = np.zeros(n)
         self.f_n = np.zeros(n)
@@ -34,6 +35,7 @@ class TsrObj:
         ar_u_linha = np.zeros(ar_teta.size)
         ar_alfa = np.zeros(ar_teta.size)
         ar_re = np.zeros(ar_teta.size)
+        ar_v_res = np.zeros(ar_teta.size)
         ar_f_l = np.zeros(ar_teta.size)
         ar_f_d = np.zeros(ar_teta.size)
         ar_f_n = np.zeros(ar_teta.size)
@@ -51,15 +53,17 @@ class TsrObj:
             u_linha = resultado[0]
             alfa = resultado[1]
             re = resultado[2]
+            v_res = resultado[3]
 
             ar_u_linha[i] = u_linha
             ar_alfa[i] = degrees(alfa)
             ar_re[i] = re
+            ar_v_res[i] = v_res
             if alfa >= 0 :
-                ar_f_l[i]=self.interpolar('cl',alfa,re)*0.5*ro*a*(u_linha**2)
+                ar_f_l[i]=self.interpolar('cl',alfa,re)*0.5*ro*a*(v_res**2)
             else:
-                ar_f_l[i] = -self.interpolar('cl',alfa,re)*0.5*ro*a*(u_linha**2)
-            ar_f_d[i] = self.interpolar('cd',alfa,re)*0.5*ro*a*(u_linha**2)
+                ar_f_l[i] = -self.interpolar('cl',alfa,re)*0.5*ro*a*(v_res**2)
+            ar_f_d[i] = self.interpolar('cd',alfa,re)*0.5*ro*a*(v_res**2)
             ar_f_n[i] = ar_f_d[i]*sin(alfa) + ar_f_l[i]*cos(alfa)
             ar_f_teta[i] = ar_f_d[i]*cos(alfa) + ar_f_l[i]*sin(alfa)
             ar_t[i] = ar_f_teta[i]*r/n
@@ -142,6 +146,7 @@ class TsrObj:
         self.u_linha = ar_u_linha
         self.alfa = ar_alfa
         self.re = ar_re
+        self.v_res = ar_v_res
         self.f_l = ar_f_l 
         self.f_d = ar_f_d
         self.f_n = ar_f_n
@@ -192,7 +197,7 @@ class TsrObj:
                 return ((u_linha+u_linha_n_conv)/2, alfa, re)
 
         logging.info('Calculo de U_LINHA: u_linha = ' + str(u_linha) + ', alfa = ' + str(alfa) + ', re = ' + str(re))
-        return (u_linha, alfa, re)
+        return (u_linha, alfa, re, v_res)
 
     def interpolar(self, c, alfa, re):
 
